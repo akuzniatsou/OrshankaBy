@@ -1,0 +1,1258 @@
+<!doctype html>
+<html lang="ru-RU">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="http://www.orshanka.by/xmlrpc.php">
+  <title>Орша. Новости Орши. Оршанская газета. Аршанская газета</title>
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//s.w.org">
+  <link rel="alternate" type="application/rss+xml" title="Орша. Новости Орши. Оршанская газета. Аршанская газета » Лента" href="http://www.orshanka.by/?feed=rss2">
+  <link rel="alternate" type="application/rss+xml" title="Орша. Новости Орши. Оршанская газета. Аршанская газета » Лента комментариев" href="http://www.orshanka.by/?feed=comments-rss2">
+  <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.3\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/www.orshanka.by\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.8.1"}};
+			!function(a,b,c){function d(a){var b,c,d,e,f=String.fromCharCode;if(!k||!k.fillText)return!1;switch(k.clearRect(0,0,j.width,j.height),k.textBaseline="top",k.font="600 32px Arial",a){case"flag":return k.fillText(f(55356,56826,55356,56819),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,56826,8203,55356,56819),0,0),c=j.toDataURL(),b===c&&(k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447),0,0),b=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447),0,0),c=j.toDataURL(),b!==c);case"emoji4":return k.fillText(f(55358,56794,8205,9794,65039),0,0),d=j.toDataURL(),k.clearRect(0,0,j.width,j.height),k.fillText(f(55358,56794,8203,9794,65039),0,0),e=j.toDataURL(),d!==e}return!1}function e(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i,j=b.createElement("canvas"),k=j.getContext&&j.getContext("2d");for(i=Array("flag","emoji4"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+  <style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+  <link rel="stylesheet" id="contact-form-7-css" href="http://www.orshanka.by/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.8.1" type="text/css" media="all">
+  <link rel="stylesheet" id="wp-polls-css" href="http://www.orshanka.by/wp-content/plugins/wp-polls/polls-css.css?ver=2.73.7" type="text/css" media="all">
+  <style id="wp-polls-inline-css" type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 8px;
+	line-height: 10px;
+	height: 10px;
+	background-image: url('http://www.orshanka.by/wp-content/plugins/wp-polls/images/default_gradient/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+
+</style>
+  <link rel="stylesheet" id="wp-pagenavi-css" href="http://www.orshanka.by/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70" type="text/css" media="all">
+  <link rel="stylesheet" id="colormag_google_fonts-css" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C600&amp;ver=4.8.1" type="text/css" media="all">
+  <link rel="stylesheet" id="colormag_style-css" href="http://www.orshanka.by/wp-content/themes/colormag/style.css?ver=4.8.1" type="text/css" media="all">
+  <link rel="stylesheet" id="colormag-fontawesome-css" href="http://www.orshanka.by/wp-content/themes/colormag/fontawesome/css/font-awesome.css?ver=4.2.1" type="text/css" media="all">
+  <script type="text/javascript" src="http://www.orshanka.by/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/themes/colormag/js/colormag-custom.js?ver=4.8.1"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/plugins/podcasting/js/tsg_new_window.js?ver=0.1"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-includes/js/swfobject.js?ver=2.2-20120417"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/plugins/podcasting/player/audio-player-noswfobject.js?ver=2.0"></script>
+  <link rel="https://api.w.org/" href="http://www.orshanka.by/index.php?rest_route=/">
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.orshanka.by/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.orshanka.by/wp-includes/wlwmanifest.xml">
+  <meta name="generator" content="WordPress 4.8.1">
+  <!-- Podcasting 3.1.5: http://podcastingplugin.com/ -->
+  <script type="text/javascript">
+			AudioPlayer.setup("http://www.orshanka.by/wp-content/plugins/podcasting/player/player.swf", {
+				width: 290			});
+		</script>
+  <!-- <meta name="NextGEN" version="2.2.12" /> -->
+  <link id="MediaRSS" rel="alternate" type="application/rss+xml" title="NextGEN Gallery RSS Feed" href="http://www.orshanka.by/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/xml/media-rss.php">
+  <link rel="shortcut icon" href="http://www.orshanka.by/wp-content/uploads/2016/04/favicon3.ico" type="image/x-icon">
+  <!-- Орша. Новости Орши. Оршанская газета. Аршанская газета Internal Styles -->
+  <style type="text/css"> .colormag-button,blockquote,button,input[type=reset],input[type=button],input[type=submit]{background-color:#dd3535}#site-title a,.next a:hover,.previous a:hover,.social-links i.fa:hover,a{color:#dd3535}.fa.search-top:hover{background-color:#dd3535}#site-navigation{border-top:4px solid #dd3535}.home-icon.front_page_on,.main-navigation a:hover,.main-navigation ul li ul li a:hover,.main-navigation ul li ul li:hover>a,.main-navigation ul li.current-menu-ancestor>a,.main-navigation ul li.current-menu-item ul li a:hover,.main-navigation ul li.current-menu-item>a,.main-navigation ul li.current_page_ancestor>a,.main-navigation ul li.current_page_item>a,.main-navigation ul li:hover>a,.main-small-navigation li a:hover,.site-header .menu-toggle:hover{background-color:#dd3535}.main-small-navigation .current-menu-item>a,.main-small-navigation .current_page_item>a{background:#dd3535}.promo-button-area a:hover{border:2px solid #dd3535;background-color:#dd3535}#content .wp-pagenavi .current,#content .wp-pagenavi a:hover,.format-link .entry-content a,.pagination span{background-color:#dd3535}.pagination a span:hover{color:#dd3535;border-color:#dd3535}#content .comments-area a.comment-edit-link:hover,#content .comments-area a.comment-permalink:hover,#content .comments-area article header cite a:hover,.comments-area .comment-author-link a:hover{color:#dd3535}.comments-area .comment-author-link span{background-color:#dd3535}.comment .comment-reply-link:hover,.nav-next a,.nav-previous a{color:#dd3535}#secondary .widget-title{border-bottom:2px solid #dd3535}#secondary .widget-title span{background-color:#dd3535}.footer-widgets-area .widget-title{border-bottom:2px solid #dd3535}.footer-widgets-area .widget-title span{background-color:#dd3535}.footer-widgets-area a:hover{color:#dd3535}.advertisement_above_footer .widget-title{border-bottom:2px solid #dd3535}.advertisement_above_footer .widget-title span{background-color:#dd3535}a#scroll-up i{color:#dd3535}.page-header .page-title{border-bottom:2px solid #dd3535}#content .post .article-content .above-entry-meta .cat-links a,.page-header .page-title span{background-color:#dd3535}#content .post .article-content .entry-title a:hover,.entry-meta .byline i,.entry-meta .cat-links i,.entry-meta a,.post .entry-title a:hover,.search .entry-title a:hover{color:#dd3535}.entry-meta .post-format i{background-color:#dd3535}.entry-meta .comments-link a:hover,.entry-meta .edit-link a:hover,.entry-meta .posted-on a:hover,.entry-meta .tag-links a:hover,.single #content .tags a:hover{color:#dd3535}.more-link,.no-post-thumbnail{background-color:#dd3535}.post-box .entry-meta .cat-links a:hover,.post-box .entry-meta .posted-on a:hover,.post.post-box .entry-title a:hover{color:#dd3535}.widget_featured_slider .slide-content .above-entry-meta .cat-links a{background-color:#dd3535}.widget_featured_slider .slide-content .below-entry-meta .byline a:hover,.widget_featured_slider .slide-content .below-entry-meta .comments a:hover,.widget_featured_slider .slide-content .below-entry-meta .posted-on a:hover,.widget_featured_slider .slide-content .entry-title a:hover{color:#dd3535}.widget_highlighted_posts .article-content .above-entry-meta .cat-links a{background-color:#dd3535}.byline a:hover,.comments a:hover,.edit-link a:hover,.posted-on a:hover,.tag-links a:hover,.widget_highlighted_posts .article-content .below-entry-meta .byline a:hover,.widget_highlighted_posts .article-content .below-entry-meta .comments a:hover,.widget_highlighted_posts .article-content .below-entry-meta .posted-on a:hover,.widget_highlighted_posts .article-content .entry-title a:hover{color:#dd3535}.widget_featured_posts .article-content .above-entry-meta .cat-links a{background-color:#dd3535}.widget_featured_posts .article-content .entry-title a:hover{color:#dd3535}.widget_featured_posts .widget-title{border-bottom:2px solid #dd3535}.widget_featured_posts .widget-title span{background-color:#dd3535}.related-posts-main-title .fa,.single-related-posts .article-content .entry-title a:hover{color:#dd3535}</style>
+  <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+  <link rel="alternate" type="application/rss+xml" title="Podcast: Орша. Новости Орши. Оршанская газета. Аршанская газета" href="http://www.orshanka.by/?feed=podcast">
+ </head>
+ <body class="home blog  wide">
+  <div id="page" class="hfeed site">
+   <header id="masthead" class="site-header clearfix">
+    <div id="header-text-nav-container" class="clearfix">
+     <div class="article-bar">
+      <div class="inner-wrap clearfix">
+       <div class="date-in-header">
+         Пятница, 8 сентября 2017
+       </div>
+       <div class="social-links clearfix">
+        <ul>
+         <li><a href="https://www.facebook.com/orshanka.by/"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="http://ok.ru/arshanskay"><i class="fa fa-odnoklassniki"></i></a></li>
+         <li><a href="http://vk.com/arshanka"><i class="fa fa-vk"></i></a></li>
+        </ul>
+       </div>
+       <!-- .social-links -->
+      </div>
+     </div>
+     <div class="inner-wrap">
+      <div id="header-text-nav-wrap" class="clearfix">
+       <div id="header-left-section">
+        <div id="header-logo-image">
+         <a href="http://www.orshanka.by/" title="Орша. Новости Орши. Оршанская газета. Аршанская газета" rel="home"><img src="http://www.orshanka.by/wp-content/uploads/2017/06/logo1.png" alt="Орша. Новости Орши. Оршанская газета. Аршанская газета"></a>
+        </div>
+        <!-- #header-logo-image -->
+       </div>
+       <!-- #header-left-section -->
+       <div id="header-right-section">
+       </div>
+       <!-- #header-right-section -->
+      </div>
+      <!-- #header-text-nav-wrap -->
+     </div>
+     <!-- .inner-wrap -->
+     <nav id="site-navigation" class="main-navigation clearfix" role="navigation">
+      <div class="inner-wrap clearfix">
+       <div class="home-icon front_page_on">
+        <a href="http://www.orshanka.by/" title="Орша. Новости Орши. Оршанская газета. Аршанская газета"><i class="fa fa-home"></i></a>
+       </div>
+       <h4 class="menu-toggle"></h4>
+       <div class="menu">
+        <ul>
+         <li class="page_item page-item-141"><a href="http://www.orshanka.by/?page_id=141">Контакты</a></li>
+         <li class="page_item page-item-139"><a href="http://www.orshanka.by/?page_id=139">Реклама</a></li>
+         <li class="page_item page-item-10648"><a href="http://www.orshanka.by/?page_id=10648">Вопрос редактору</a></li>
+         <li class="page_item page-item-5820"><a href="http://www.orshanka.by/?page_id=5820">Конкурсы</a></li>
+         <li class="page_item page-item-5342"><a href="http://www.orshanka.by/?page_id=5342">Вакансии</a></li>
+         <li class="page_item page-item-22085"><a href="http://www.orshanka.by/?page_id=22085">Афиша</a></li>
+         <li class="page_item page-item-23322"><a href="http://www.orshanka.by/?page_id=23322">Доска бесплатных объявлений</a></li>
+        </ul>
+       </div>
+       <div class="random-post">
+        <a href="http://www.orshanka.by/?p=30557" title="Посмотреть случайную запись"><i class="fa fa-random"></i></a>
+       </div>
+       <i class="fa fa-search search-top"></i>
+       <div class="search-form-top">
+        <form action="http://www.orshanka.by/" class="search-form searchform clearfix" method="get">
+         <div class="search-wrap">
+          <input type="text" placeholder="Поиск" class="s field" name="s">
+          <button class="search-icon" type="submit"></button>
+         </div>
+        </form>
+        <!-- .searchform -->
+       </div>
+      </div>
+     </nav>
+    </div>
+    <!-- #header-text-nav-container -->
+   </header>
+   <div id="main" class="clearfix">
+    <div class="inner-wrap clearfix">
+     <div class="front-page-top-section clearfix">
+      <div class="widget_slider_area">
+       <section id="colormag_featured_posts_slider_widget-2" class="widget widget_featured_slider widget_featured_meta clearfix">
+        <div class="widget_slider_area_rotate">
+         <div class="single-slide displayblock">
+          <figure class="slider-featured-image">
+           <a href="http://www.orshanka.by/?p=36106" title="В Орше сдан в эксплуатацию дом, построенный с привлечением китайских инвестиций"><img width="800" height="445" src="http://www.orshanka.by/wp-content/uploads/2017/09/dom.jpg" class="attachment-colormag-featured-image size-colormag-featured-image wp-post-image" alt="В Орше сдан в эксплуатацию дом, построенный с привлечением китайских инвестиций" title="В Орше сдан в эксплуатацию дом, построенный с привлечением китайских инвестиций" srcset="http://www.orshanka.by/wp-content/uploads/2017/09/dom.jpg 800w, http://www.orshanka.by/wp-content/uploads/2017/09/dom-300x167.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/09/dom-768x427.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"></a>
+          </figure>
+          <div class="slide-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=74" rel="category tag">Актуально</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36106" title="В Орше сдан в эксплуатацию дом, построенный с привлечением китайских инвестиций">В Орше сдан в эксплуатацию дом, построенный с привлечением китайских инвестиций</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=36106" title="15:15" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-07T15:15:15+00:00">07.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36106#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+         <div class="single-slide displaynone">
+          <figure class="slider-featured-image">
+           <a href="http://www.orshanka.by/?p=36100" title="Як Полацк святкаваў Дзень беларускага пісьменства (фота)"><img width="800" height="445" src="http://www.orshanka.by/wp-content/uploads/2017/09/den-pism1.jpg" class="attachment-colormag-featured-image size-colormag-featured-image wp-post-image" alt="Як Полацк святкаваў Дзень беларускага пісьменства (фота)" title="Як Полацк святкаваў Дзень беларускага пісьменства (фота)" srcset="http://www.orshanka.by/wp-content/uploads/2017/09/den-pism1.jpg 800w, http://www.orshanka.by/wp-content/uploads/2017/09/den-pism1-300x167.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/09/den-pism1-768x427.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"></a>
+          </figure>
+          <div class="slide-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=74" rel="category tag">Актуально</a>&nbsp;<a href="http://www.orshanka.by/?cat=3623" style="background:#ff8c00" rel="category tag">Фоторепортажи</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36100" title="Як Полацк святкаваў Дзень беларускага пісьменства (фота)">Як Полацк святкаваў Дзень беларускага пісьменства (фота)</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=36100" title="10:46" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-06T10:46:30+00:00">06.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36100#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+         <div class="single-slide displaynone">
+          <figure class="slider-featured-image">
+           <a href="http://www.orshanka.by/?p=36072" title="Оршанский учитель Валерий Герасимов награжден медалью «За трудовые заслуги»"><img width="800" height="445" src="http://www.orshanka.by/wp-content/uploads/2017/09/gerasimov.jpg" class="attachment-colormag-featured-image size-colormag-featured-image wp-post-image" alt="Оршанский учитель Валерий Герасимов награжден медалью «За трудовые заслуги»" title="Оршанский учитель Валерий Герасимов награжден медалью «За трудовые заслуги»" srcset="http://www.orshanka.by/wp-content/uploads/2017/09/gerasimov.jpg 800w, http://www.orshanka.by/wp-content/uploads/2017/09/gerasimov-300x167.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/09/gerasimov-768x427.jpg 768w" sizes="(max-width: 800px) 100vw, 800px"></a>
+          </figure>
+          <div class="slide-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=74" rel="category tag">Актуально</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36072" title="Оршанский учитель Валерий Герасимов награжден медалью «За трудовые заслуги»">Оршанский учитель Валерий Герасимов награжден медалью «За трудовые заслуги»</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=36072" title="15:04" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-05T15:04:31+00:00">05.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36072#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+      <div class="widget_beside_slider">
+       <section id="colormag_highlighted_posts_widget-2" class="widget widget_highlighted_posts widget_featured_meta clearfix">
+        <div class="widget_highlighted_post_area">
+         <div class="single-article">
+          <figure class="highlights-featured-image">
+           <a href="http://www.orshanka.by/?p=36104" title="Оршанцев приглашают на «Нескучный вечер в библиотеке»"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/03/books2.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="Оршанцев приглашают на «Нескучный вечер в библиотеке»" title="Оршанцев приглашают на «Нескучный вечер в библиотеке»" srcset="http://www.orshanka.by/wp-content/uploads/2017/03/books2.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/03/books2-300x208.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/03/books2-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=1034" rel="category tag">Главное</a>&nbsp;<a href="http://www.orshanka.by/?cat=3665" rel="category tag">Год науки</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36104" title="Оршанцев приглашают на «Нескучный вечер в библиотеке»">Оршанцев приглашают на «Нескучный вечер в библиотеке»</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=36104" title="11:02" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-06T11:02:49+00:00">06.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36104#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+         <div class="single-article">
+          <figure class="highlights-featured-image">
+           <a href="http://www.orshanka.by/?p=35380" title="Работа в Орше: вакансии на сентябрь"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/04/vakansii.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="Работа в Орше: вакансии на сентябрь" title="Работа в Орше: вакансии на сентябрь" srcset="http://www.orshanka.by/wp-content/uploads/2017/04/vakansii.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/04/vakansii-300x208.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/04/vakansii-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=1034" rel="category tag">Главное</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35380" title="Работа в Орше: вакансии на сентябрь">Работа в Орше: вакансии на сентябрь</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=35380" title="13:47" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-05T13:47:29+00:00">05.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35380#comments">Один комментарий</a></span>
+           </div>
+          </div>
+         </div>
+         <div class="single-article">
+          <figure class="highlights-featured-image">
+           <a href="http://www.orshanka.by/?p=35992" title="В Витебской области объявлен конкурс инвестиционных проектов для малого предпринимательства"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/08/biznes-idei.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="В Витебской области объявлен конкурс инвестиционных проектов для малого предпринимательства" title="В Витебской области объявлен конкурс инвестиционных проектов для малого предпринимательства" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/biznes-idei.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/08/biznes-idei-300x208.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/08/biznes-idei-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=1034" rel="category tag">Главное</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35992" title="В Витебской области объявлен конкурс инвестиционных проектов для малого предпринимательства">В Витебской области объявлен конкурс инвестиционных проектов для малого предпринимательства</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=35992" title="10:19" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-31T10:19:10+00:00">31.08.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35992#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+         <div class="single-article">
+          <figure class="highlights-featured-image">
+           <a href="http://www.orshanka.by/?p=35153" title="Объявляем конкурс старых свадебных фото"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/06/sv-foto.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="Объявляем конкурс старых свадебных фото" title="Объявляем конкурс старых свадебных фото" srcset="http://www.orshanka.by/wp-content/uploads/2017/06/sv-foto.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/06/sv-foto-300x208.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/06/sv-foto-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=1034" rel="category tag">Главное</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35153" title="Объявляем конкурс старых свадебных фото">Объявляем конкурс старых свадебных фото</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=35153" title="15:35" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-06-26T15:35:12+00:00">26.06.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35153#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+     <div class="main-content-section clearfix">
+      <div id="primary">
+       <div id="content" class="clearfix">
+        <section id="colormag_featured_posts_widget-2" class="widget widget_featured_posts widget_featured_meta clearfix">
+         <h3 class="widget-title" style="border-bottom-color:#55ac55;"><span style="background-color:#55ac55;">Общество</span></h3>
+         <div class="first-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=36113" title="Оршанцы оказались в числе лучших водителей почтовых автомобилей"><img width="390" height="205" src="http://www.orshanka.by/wp-content/uploads/2017/09/voditeli-pochta-390x205.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="Оршанцы оказались в числе лучших водителей почтовых автомобилей" title="Оршанцы оказались в числе лучших водителей почтовых автомобилей"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=3639" style="background:#55ac55" rel="category tag">Общество</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36113" title="Оршанцы оказались в числе лучших водителей почтовых автомобилей">Оршанцы оказались в числе лучших водителей почтовых автомобилей</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36113" title="12:02" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-08T12:02:33+00:00">08.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36113#respond">Комментариев нет</a></span>
+            </div>
+            <div class="entry-content">
+             <p>Ежегодно в городе над Двиной совместно с Витебским филиалом РУП «Белпочта» и первичной профсоюзной организацией данного предприятия проходит конкурс по</p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="following-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=36015" title="Застройка квартала домов по ул. Ленина 1 и 2 в Орше выносится на общественное обсуждение"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2013/08/orsha-gazeta-e1487339545917-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Застройка квартала домов по ул. Ленина 1 и 2 в Орше выносится на общественное обсуждение" title="Застройка квартала домов по ул. Ленина 1 и 2 в Орше выносится на общественное обсуждение" srcset="http://www.orshanka.by/wp-content/uploads/2013/08/orsha-gazeta-e1487339545917-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2013/08/orsha-gazeta-e1487339545917-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=3639" style="background:#55ac55" rel="category tag">Общество</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36015" title="Застройка квартала домов по ул. Ленина 1 и 2 в Орше выносится на общественное обсуждение">Застройка квартала домов по ул. Ленина 1 и 2 в Орше выносится на общественное обсуждение</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36015" title="12:13" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-05T12:13:27+00:00">05.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36015#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=36023" title="Праздничные линейки прошли в оршанских школах (+фото)"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/09/IMG_1921-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Праздничные линейки прошли в оршанских школах (+фото)" title="Праздничные линейки прошли в оршанских школах (+фото)" srcset="http://www.orshanka.by/wp-content/uploads/2017/09/IMG_1921-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/09/IMG_1921-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=3639" style="background:#55ac55" rel="category tag">Общество</a>&nbsp;<a href="http://www.orshanka.by/?cat=3623" style="background:#ff8c00" rel="category tag">Фоторепортажи</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36023" title="Праздничные линейки прошли в оршанских школах (+фото)">Праздничные линейки прошли в оршанских школах (+фото)</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36023" title="16:52" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-01T16:52:15+00:00">01.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36023#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=36011" title="Дан старт второму этапу голосования премии «Народная Марка»!"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/narodnaya-marka-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Дан старт второму этапу голосования премии «Народная Марка»!" title="Дан старт второму этапу голосования премии «Народная Марка»!" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/narodnaya-marka-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/narodnaya-marka-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=3639" style="background:#55ac55" rel="category tag">Общество</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36011" title="Дан старт второму этапу голосования премии «Народная Марка»!">Дан старт второму этапу голосования премии «Народная Марка»!</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36011" title="12:00" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-01T12:00:37+00:00">01.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36011#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <!-- </div> -->
+        </section>
+        <div class="tg-one-half">
+         <section id="colormag_featured_posts_vertical_widget-2" class="widget widget_featured_posts widget_featured_posts_vertical widget_featured_meta clearfix">
+          <h3 class="widget-title" style="border-bottom-color:#9d58e2;"><span style="background-color:#9d58e2;">Культура</span></h3>
+          <div class="first-post">
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=36116" title="В Кутеинском монастыре завершается восстановление колокольни"><img width="390" height="205" src="http://www.orshanka.by/wp-content/uploads/2017/09/kolokolnya-390x205.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="В Кутеинском монастыре завершается восстановление колокольни" title="В Кутеинском монастыре завершается восстановление колокольни"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=1122" rel="category tag">Духовное</a>&nbsp;<a href="http://www.orshanka.by/?cat=154" style="background:#9d58e2" rel="category tag">Культура</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36116" title="В Кутеинском монастыре завершается восстановление колокольни">В Кутеинском монастыре завершается восстановление колокольни</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=36116" title="12:08" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-08T12:08:47+00:00">08.09.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36116#respond">Комментариев нет</a></span>
+             </div>
+             <div class="entry-content">
+              <p>В Свято-Богоявленском Кутеинском мужском монастыре завершаются работы по восстановлению надвратной колокольни. Недавно на звонницу с зеленым шатром был поднят купол</p>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="following-post">
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=35985" title="1 сентября оршанских школьников ждут на музейном празднике в художественной галерее"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/musigra-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="1 сентября оршанских школьников ждут на музейном празднике в художественной галерее" title="1 сентября оршанских школьников ждут на музейном празднике в художественной галерее" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/musigra-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/musigra-300x211.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/08/musigra-768x540.jpg 768w, http://www.orshanka.by/wp-content/uploads/2017/08/musigra.jpg 1024w, http://www.orshanka.by/wp-content/uploads/2017/08/musigra-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=154" style="background:#9d58e2" rel="category tag">Культура</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35985" title="1 сентября оршанских школьников ждут на музейном празднике в художественной галерее">1 сентября оршанских школьников ждут на музейном празднике в художественной галерее</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=35985" title="08:25" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-30T08:25:04+00:00">30.08.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35985#respond">Комментариев нет</a></span>
+             </div>
+            </div>
+           </div>
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=35983" title="Праграма Дня беларускага пісьменства ў Полацку"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/03/books2-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Праграма Дня беларускага пісьменства ў Полацку" title="Праграма Дня беларускага пісьменства ў Полацку" srcset="http://www.orshanka.by/wp-content/uploads/2017/03/books2-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/03/books2-300x208.jpg 300w, http://www.orshanka.by/wp-content/uploads/2017/03/books2.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=154" style="background:#9d58e2" rel="category tag">Культура</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35983" title="Праграма Дня беларускага пісьменства ў Полацку">Праграма Дня беларускага пісьменства ў Полацку</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=35983" title="08:54" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-29T08:54:07+00:00">29.08.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35983#respond">Комментариев нет</a></span>
+             </div>
+            </div>
+           </div>
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=35930" title="Жыццё мастака: да юбілею Мікалая Таранды"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/taranda-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Жыццё мастака: да юбілею Мікалая Таранды" title="Жыццё мастака: да юбілею Мікалая Таранды" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/taranda-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/taranda-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=154" style="background:#9d58e2" rel="category tag">Культура</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35930" title="Жыццё мастака: да юбілею Мікалая Таранды">Жыццё мастака: да юбілею Мікалая Таранды</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=35930" title="11:17" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-24T11:17:29+00:00">24.08.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35930#respond">Комментариев нет</a></span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </section>
+        </div>
+        <div class="tg-one-half tg-one-half-last">
+         <section id="colormag_featured_posts_vertical_widget-3" class="widget widget_featured_posts widget_featured_posts_vertical widget_featured_meta clearfix">
+          <h3 class="widget-title" style="border-bottom-color:#555ed6;"><span style="background-color:#555ed6;">Официально</span></h3>
+          <div class="first-post">
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=36110" title="Беларусь готовится к проведению II Европейских игр"><img width="390" height="205" src="http://www.orshanka.by/wp-content/uploads/2017/09/218901-12-390x205.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="Беларусь готовится к проведению II Европейских игр" title="Беларусь готовится к проведению II Европейских игр"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=1067" style="background:#555ed6" rel="category tag">Официально</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36110" title="Беларусь готовится к проведению II Европейских игр">Беларусь готовится к проведению II Европейских игр</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=36110" title="09:52" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-08T09:52:32+00:00">08.09.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36110#respond">Комментариев нет</a></span>
+             </div>
+             <div class="entry-content">
+              <p>Беларусь получила право проведения II Европейских игр на 45-м заседании Генеральной ассамблеи Европейских олимпийских комитетов, которое в октябре 2016 года</p>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="following-post">
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=35937" title="Новые учебники по всем предметам будут подготовлены к 1 сентября 2019 года"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/218778-33-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Новые учебники по всем предметам будут подготовлены к 1 сентября 2019 года" title="Новые учебники по всем предметам будут подготовлены к 1 сентября 2019 года" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/218778-33-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/218778-33-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=1067" style="background:#555ed6" rel="category tag">Официально</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35937" title="Новые учебники по всем предметам будут подготовлены к 1 сентября 2019 года">Новые учебники по всем предметам будут подготовлены к 1 сентября 2019 года</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=35937" title="10:20" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-25T10:20:20+00:00">25.08.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35937#respond">Комментариев нет</a></span>
+             </div>
+            </div>
+           </div>
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=35905" title="Госконтроль проверил Оршанский льнокомбинат и Ореховский льнозавод"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/len-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Госконтроль проверил Оршанский льнокомбинат и Ореховский льнозавод" title="Госконтроль проверил Оршанский льнокомбинат и Ореховский льнозавод" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/len-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/len-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=3646" rel="category tag">Госконтроль</a>&nbsp;<a href="http://www.orshanka.by/?cat=1067" style="background:#555ed6" rel="category tag">Официально</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35905" title="Госконтроль проверил Оршанский льнокомбинат и Ореховский льнозавод">Госконтроль проверил Оршанский льнокомбинат и Ореховский льнозавод</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=35905" title="08:31" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-23T08:31:57+00:00">23.08.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35905#respond">Комментариев нет</a></span>
+             </div>
+            </div>
+           </div>
+           <div class="single-article clearfix">
+            <figure>
+             <a href="http://www.orshanka.by/?p=35855" title="Госконтроль выявил нарушения порядка представления данных государственной статистической отчетности"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/стопка-документов-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Госконтроль выявил нарушения порядка представления данных государственной статистической отчетности" title="Госконтроль выявил нарушения порядка представления данных государственной статистической отчетности" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/стопка-документов-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/стопка-документов-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+            </figure>
+            <div class="article-content">
+             <div class="above-entry-meta">
+              <span class="cat-links"><a href="http://www.orshanka.by/?cat=3646" rel="category tag">Госконтроль</a>&nbsp;<a href="http://www.orshanka.by/?cat=1067" style="background:#555ed6" rel="category tag">Официально</a>&nbsp;</span>
+             </div>
+             <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35855" title="Госконтроль выявил нарушения порядка представления данных государственной статистической отчетности">Госконтроль выявил нарушения порядка представления данных государственной статистической отчетности</a> </h3>
+             <div class="below-entry-meta">
+              <span class="posted-on"><a href="http://www.orshanka.by/?p=35855" title="12:14" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-16T12:14:35+00:00">16.08.2017</time></a></span>
+              <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+              <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35855#respond">Комментариев нет</a></span>
+             </div>
+            </div>
+           </div>
+          </div>
+         </section>
+        </div>
+        <div class="clearfix"></div>
+        <section id="colormag_highlighted_posts_widget-3" class="widget widget_highlighted_posts widget_featured_meta clearfix">
+         <div class="widget_highlighted_post_area">
+          <div class="single-article">
+           <figure class="highlights-featured-image">
+            <a href="http://www.orshanka.by/?p=36066" title="В Орше праздничным концертом отметят 15-летие БРСМ"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/03/IMG_0867-392x272.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="В Орше праздничным концертом отметят 15-летие БРСМ" title="В Орше праздничным концертом отметят 15-летие БРСМ" srcset="http://www.orshanka.by/wp-content/uploads/2017/03/IMG_0867-392x272.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/03/IMG_0867-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=2278" style="background:#b2ad25" rel="category tag">Молодежь</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36066" title="В Орше праздничным концертом отметят 15-летие БРСМ">В Орше праздничным концертом отметят 15-летие БРСМ</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36066" title="12:32" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-05T12:32:24+00:00">05.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36066#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article">
+           <figure class="highlights-featured-image">
+            <a href="http://www.orshanka.by/?p=35962" title="Победители конкурса «Сыночки и лапочки дочки» получили подарки (+фото)"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/08/det_konkurs-1-392x272.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="Победители конкурса «Сыночки и лапочки дочки» получили подарки (+фото)" title="Победители конкурса «Сыночки и лапочки дочки» получили подарки (+фото)" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/det_konkurs-1-392x272.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/08/det_konkurs-1-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=2278" style="background:#b2ad25" rel="category tag">Молодежь</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35962" title="Победители конкурса «Сыночки и лапочки дочки» получили подарки (+фото)">Победители конкурса «Сыночки и лапочки дочки» получили подарки (+фото)</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35962" title="15:48" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-28T15:48:48+00:00">28.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35962#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article">
+           <figure class="highlights-featured-image">
+            <a href="http://www.orshanka.by/?p=35916" title="Что думают оршанские педагоги о возврате к пятибалльной системе"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2017/08/5-ballov-392x272.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="Что думают оршанские педагоги о возврате к пятибалльной системе" title="Что думают оршанские педагоги о возврате к пятибалльной системе" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/5-ballov-392x272.jpg 392w, http://www.orshanka.by/wp-content/uploads/2017/08/5-ballov-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=2278" style="background:#b2ad25" rel="category tag">Молодежь</a>&nbsp;<a href="http://www.orshanka.by/?cat=3642" rel="category tag">Образование</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35916" title="Что думают оршанские педагоги о возврате к пятибалльной системе">Что думают оршанские педагоги о возврате к пятибалльной системе</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35916" title="12:02" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-23T12:02:56+00:00">23.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35916#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article">
+           <figure class="highlights-featured-image">
+            <a href="http://www.orshanka.by/?p=35718" title="Оршанская молодежь собирает подарки для школьников"><img width="392" height="272" src="http://www.orshanka.by/wp-content/uploads/2016/08/school_4-392x272.jpg" class="attachment-colormag-highlighted-post size-colormag-highlighted-post wp-post-image" alt="Оршанская молодежь собирает подарки для школьников" title="Оршанская молодежь собирает подарки для школьников" srcset="http://www.orshanka.by/wp-content/uploads/2016/08/school_4-392x272.jpg 392w, http://www.orshanka.by/wp-content/uploads/2016/08/school_4-130x90.jpg 130w" sizes="(max-width: 392px) 100vw, 392px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=2278" style="background:#b2ad25" rel="category tag">Молодежь</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35718" title="Оршанская молодежь собирает подарки для школьников">Оршанская молодежь собирает подарки для школьников</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35718" title="09:43" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-09T09:43:51+00:00">09.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35718#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+         </div>
+        </section>
+        <section id="colormag_featured_posts_widget-5" class="widget widget_featured_posts widget_featured_meta clearfix">
+         <h3 class="widget-title" style="border-bottom-color:#0595bc;"><span style="background-color:#0595bc;">Экономика</span></h3>
+         <div class="first-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=36102" title="Сколько новых шин можно беспошлинно ввезти на территорию ЕАЭС"><img width="328" height="205" src="http://www.orshanka.by/wp-content/uploads/2012/04/image3919.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="Сколько новых шин можно беспошлинно ввезти на территорию ЕАЭС" title="Сколько новых шин можно беспошлинно ввезти на территорию ЕАЭС" srcset="http://www.orshanka.by/wp-content/uploads/2012/04/image3919.jpg 550w, http://www.orshanka.by/wp-content/uploads/2012/04/image3919-300x187.jpg 300w" sizes="(max-width: 328px) 100vw, 328px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=1906" style="background:#0595bc" rel="category tag">Экономика</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36102" title="Сколько новых шин можно беспошлинно ввезти на территорию ЕАЭС">Сколько новых шин можно беспошлинно ввезти на территорию ЕАЭС</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36102" title="10:55" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-06T10:55:59+00:00">06.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36102#respond">Комментариев нет</a></span>
+            </div>
+            <div class="entry-content">
+             <p>— Приобрел два комплекта шин для своего авто. Сколько новых шин для автомобиля я могу беспошлинно ввезти для личного пользования?</p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="following-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35995" title="Предприниматели Витебской области могут получать субсидии для возмещения части расходов на участие в выставках и ярмарках"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/3720-big-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Предприниматели Витебской области могут получать субсидии для возмещения части расходов на участие в выставках и ярмарках" title="Предприниматели Витебской области могут получать субсидии для возмещения части расходов на участие в выставках и ярмарках" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/3720-big-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/3720-big-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=1906" style="background:#0595bc" rel="category tag">Экономика</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35995" title="Предприниматели Витебской области могут получать субсидии для возмещения части расходов на участие в выставках и ярмарках">Предприниматели Витебской области могут получать субсидии для возмещения части расходов на участие в выставках и ярмарках</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35995" title="10:28" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-31T10:28:47+00:00">31.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35995#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35976" title="В Орше создана региональная ассоциация предпринимателей"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/03/bisnes-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="В Орше создана региональная ассоциация предпринимателей" title="В Орше создана региональная ассоциация предпринимателей" srcset="http://www.orshanka.by/wp-content/uploads/2017/03/bisnes-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/03/bisnes-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=1906" style="background:#0595bc" rel="category tag">Экономика</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35976" title="В Орше создана региональная ассоциация предпринимателей">В Орше создана региональная ассоциация предпринимателей</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35976" title="08:29" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-29T08:29:55+00:00">29.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35976#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35960" title="Станкозавод «Красный борец» принял участие в международном военно-техническом форуме «Армия-2017»"><img width="126" height="90" src="http://www.orshanka.by/wp-content/uploads/2011/02/Krasni-borez.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Станкозавод «Красный борец» принял участие в международном военно-техническом форуме «Армия-2017»" title="Станкозавод «Красный борец» принял участие в международном военно-техническом форуме «Армия-2017»" srcset="http://www.orshanka.by/wp-content/uploads/2011/02/Krasni-borez.jpg 350w, http://www.orshanka.by/wp-content/uploads/2011/02/Krasni-borez-300x214.jpg 300w" sizes="(max-width: 126px) 100vw, 126px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=1349" rel="category tag">На предприятиях</a>&nbsp;<a href="http://www.orshanka.by/?cat=1906" style="background:#0595bc" rel="category tag">Экономика</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35960" title="Станкозавод «Красный борец» принял участие в международном военно-техническом форуме «Армия-2017»">Станкозавод «Красный борец» принял участие в международном военно-техническом форуме «Армия-2017»</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35960" title="10:12" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-28T10:12:23+00:00">28.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35960#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <!-- </div> -->
+        </section>
+        <section id="colormag_featured_posts_widget-3" class="widget widget_featured_posts widget_featured_meta clearfix">
+         <h3 class="widget-title" style="border-bottom-color:#297c25;"><span style="background-color:#297c25;">Здоровье</span></h3>
+         <div class="first-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35616" title="Чем помочь при тепловом ударе"><img width="390" height="205" src="http://www.orshanka.by/wp-content/uploads/2017/08/тепловой-удар-390x205.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="Чем помочь при тепловом ударе" title="Чем помочь при тепловом ударе"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=48" style="background:#297c25" rel="category tag">Здоровье</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35616" title="Чем помочь при тепловом ударе">Чем помочь при тепловом ударе</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35616" title="15:20" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-03T15:20:45+00:00">03.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35616#respond">Комментариев нет</a></span>
+            </div>
+            <div class="entry-content">
+             <p>В летние месяцы мы активнее двигаемся, больше времени проводим на свежем воздухе – даче, водоемах, лесах, путешествуем и чаще попадаем</p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="following-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35451" title="Подарок Президента: в Копысской больнице появился новый автомобиль"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/07/mashina-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Подарок Президента: в Копысской больнице появился новый автомобиль" title="Подарок Президента: в Копысской больнице появился новый автомобиль" srcset="http://www.orshanka.by/wp-content/uploads/2017/07/mashina-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/07/mashina-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=48" style="background:#297c25" rel="category tag">Здоровье</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35451" title="Подарок Президента: в Копысской больнице появился новый автомобиль">Подарок Президента: в Копысской больнице появился новый автомобиль</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35451" title="10:56" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-07-19T10:56:25+00:00">19.07.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35451#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35377" title="В Орше открыли обновлённый Центр здоровья подростков и молодёжи «Надежда»"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/07/nadezhda-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="В Орше открыли обновлённый Центр здоровья подростков и молодёжи «Надежда»" title="В Орше открыли обновлённый Центр здоровья подростков и молодёжи «Надежда»" srcset="http://www.orshanka.by/wp-content/uploads/2017/07/nadezhda-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/07/nadezhda-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=48" style="background:#297c25" rel="category tag">Здоровье</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35377" title="В Орше открыли обновлённый Центр здоровья подростков и молодёжи «Надежда»">В Орше открыли обновлённый Центр здоровья подростков и молодёжи «Надежда»</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35377" title="10:14" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-07-10T10:14:04+00:00">10.07.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35377#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35187" title="В Копыси завершается ремонт участковой больницы"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/06/kopys-bolnitsa-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="В Копыси завершается ремонт участковой больницы" title="В Копыси завершается ремонт участковой больницы" srcset="http://www.orshanka.by/wp-content/uploads/2017/06/kopys-bolnitsa-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/06/kopys-bolnitsa-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=48" style="background:#297c25" rel="category tag">Здоровье</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35187" title="В Копыси завершается ремонт участковой больницы">В Копыси завершается ремонт участковой больницы</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35187" title="14:58" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-06-28T14:58:54+00:00">28.06.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35187#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <!-- </div> -->
+        </section>
+        <section id="colormag_featured_posts_widget-4" class="widget widget_featured_posts widget_featured_meta clearfix">
+         <h3 class="widget-title" style="border-bottom-color:#2b2b2b;"><span style="background-color:#2b2b2b;">Спорт</span></h3>
+         <div class="first-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=36070" title="В Оршанском регионе пройдет турслет учащихся Союзного государства"><img width="294" height="205" src="http://www.orshanka.by/wp-content/uploads/2012/05/143.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="В Оршанском регионе пройдет турслет учащихся Союзного государства" title="В Оршанском регионе пройдет турслет учащихся Союзного государства" srcset="http://www.orshanka.by/wp-content/uploads/2012/05/143.jpg 448w, http://www.orshanka.by/wp-content/uploads/2012/05/143-300x208.jpg 300w" sizes="(max-width: 294px) 100vw, 294px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=24" style="background:#2b2b2b" rel="category tag">Спорт</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36070" title="В Оршанском регионе пройдет турслет учащихся Союзного государства">В Оршанском регионе пройдет турслет учащихся Союзного государства</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=36070" title="14:51" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-05T14:51:57+00:00">05.09.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36070#respond">Комментариев нет</a></span>
+            </div>
+            <div class="entry-content">
+             <p>Оршанщина на неделю превратится в центр молодежного туризма. С 10 по 16 сентября в нашем районе пройдет туристский слет учащихся</p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="following-post">
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35910" title="Оршанцы успешно выступили на чемпионате Европы за сборные Беларуси по хоккею на траве"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/Hockey-pitch-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Оршанцы успешно выступили на чемпионате Европы за сборные Беларуси по хоккею на траве" title="Оршанцы успешно выступили на чемпионате Европы за сборные Беларуси по хоккею на траве" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/Hockey-pitch-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/Hockey-pitch-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=24" style="background:#2b2b2b" rel="category tag">Спорт</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35910" title="Оршанцы успешно выступили на чемпионате Европы за сборные Беларуси по хоккею на траве">Оршанцы успешно выступили на чемпионате Европы за сборные Беларуси по хоккею на траве</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35910" title="11:01" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-23T11:01:28+00:00">23.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35910#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35747" title="Оршанец Сергей Ширкевич установил рекорд в скоростном троеборье"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/Ширкевич-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Оршанец Сергей Ширкевич установил рекорд в скоростном троеборье" title="Оршанец Сергей Ширкевич установил рекорд в скоростном троеборье" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/Ширкевич-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/Ширкевич-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=24" style="background:#2b2b2b" rel="category tag">Спорт</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35747" title="Оршанец Сергей Ширкевич установил рекорд в скоростном троеборье">Оршанец Сергей Ширкевич установил рекорд в скоростном троеборье</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35747" title="11:40" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-12T11:40:08+00:00">12.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35747#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+          <div class="single-article clearfix">
+           <figure>
+            <a href="http://www.orshanka.by/?p=35793" title="Алина Талай вышла в финал стометровки с барьерами на чемпионате мира в Лондоне"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/Алина-Талай-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Алина Талай вышла в финал стометровки с барьерами на чемпионате мира в Лондоне" title="Алина Талай вышла в финал стометровки с барьерами на чемпионате мира в Лондоне" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/Алина-Талай-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/Алина-Талай-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+           </figure>
+           <div class="article-content">
+            <div class="above-entry-meta">
+             <span class="cat-links"><a href="http://www.orshanka.by/?cat=24" style="background:#2b2b2b" rel="category tag">Спорт</a>&nbsp;</span>
+            </div>
+            <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35793" title="Алина Талай вышла в финал стометровки с барьерами на чемпионате мира в Лондоне">Алина Талай вышла в финал стометровки с барьерами на чемпионате мира в Лондоне</a> </h3>
+            <div class="below-entry-meta">
+             <span class="posted-on"><a href="http://www.orshanka.by/?p=35793" title="15:26" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-11T15:26:37+00:00">11.08.2017</time></a></span>
+             <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+             <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35793#respond">Комментариев нет</a></span>
+            </div>
+           </div>
+          </div>
+         </div>
+         <!-- </div> -->
+        </section>
+       </div>
+      </div>
+      <div id="secondary">
+       <aside id="text-22" class="widget widget_text clearfix">
+        <h3 class="widget-title"><span>Баннеры</span></h3>
+        <div class="textwidget">
+         <p><a href=" http://www.orshanka.by/?p=34776" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/06/podpiska.jpg"></a><br> <a href="http://www.orshanka.by/?cat=3667/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/04/950.png"></a><br> <a href="http://www.orshanka.by/?cat=3665/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/01/god_nauki.jpg"></a><br> <a href="http://www.orshanka.by/?cat=3666/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/02/100.png"></a><br> <a href=" http://www.orshanka.by/?cat=1907" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/08/Жатва-баннер.jpg"></a><br> <a href=" http://www.orshanka.by/?page_id=23322/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/04/doshka.png"></a><br> <a href="http://www.orshanka.by/?page_id=22085/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/04/afisha.png"></a><br> <a href="http://www.orshanka.by/?p=29806/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/04/talant.jpg"></a><br> <a href="http://president.gov.by/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/04/govby.png"></a><br> <a href="http://www.vitebsk-region.gov.by/ru/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/04/vitobl2.png"></a><br> <a href="http://orsha.vitebsk-region.gov.by/ru" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/04/orshkom.png"></a><br> <a href="http://www.orshanka.by/?cat=3664/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2016/12/FPB.jpg"></a><br> <a href=" http://fondmira.by/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/08/Фонд-мира.jpg"></a><br> <a href=" http://www.narodnayamarka.by/" target="_blank" rel="nofollow noopener"><img src="http://www.orshanka.by/wp-content/uploads/2017/07/Оршанская-ГАЗЕТА310.jpg"></a></p>
+        </div>
+       </aside>
+       <aside id="text-29" class="widget widget_text clearfix">
+        <div class="textwidget"></div>
+       </aside>
+       <aside id="colormag_featured_posts_vertical_widget-6" class="widget widget_featured_posts widget_featured_posts_vertical widget_featured_meta clearfix">
+        <h3 class="widget-title" style="border-bottom-color:#ff8c00;"><span style="background-color:#ff8c00;">Фоторепортажи</span></h3>
+        <div class="first-post">
+         <div class="single-article clearfix">
+          <figure>
+           <a href="http://www.orshanka.by/?p=36100" title="Як Полацк святкаваў Дзень беларускага пісьменства (фота)"><img width="390" height="205" src="http://www.orshanka.by/wp-content/uploads/2017/09/den-pism1-390x205.jpg" class="attachment-colormag-featured-post-medium size-colormag-featured-post-medium wp-post-image" alt="Як Полацк святкаваў Дзень беларускага пісьменства (фота)" title="Як Полацк святкаваў Дзень беларускага пісьменства (фота)"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=74" rel="category tag">Актуально</a>&nbsp;<a href="http://www.orshanka.by/?cat=3623" style="background:#ff8c00" rel="category tag">Фоторепортажи</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36100" title="Як Полацк святкаваў Дзень беларускага пісьменства (фота)">Як Полацк святкаваў Дзень беларускага пісьменства (фота)</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=36100" title="10:46" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-06T10:46:30+00:00">06.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36100#respond">Комментариев нет</a></span>
+           </div>
+           <div class="entry-content">
+            <p>У першыя дні восені старажытны Полацк сустракаў гасцей. Радзіма Еўфрасінні і Францыска Скарыны адзначыла сваё 1155-годдзе і ў юбілейны для</p>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="following-post">
+         <div class="single-article clearfix">
+          <figure>
+           <a href="http://www.orshanka.by/?p=36023" title="Праздничные линейки прошли в оршанских школах (+фото)"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/09/IMG_1921-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Праздничные линейки прошли в оршанских школах (+фото)" title="Праздничные линейки прошли в оршанских школах (+фото)" srcset="http://www.orshanka.by/wp-content/uploads/2017/09/IMG_1921-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/09/IMG_1921-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=3639" style="background:#55ac55" rel="category tag">Общество</a>&nbsp;<a href="http://www.orshanka.by/?cat=3623" style="background:#ff8c00" rel="category tag">Фоторепортажи</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=36023" title="Праздничные линейки прошли в оршанских школах (+фото)">Праздничные линейки прошли в оршанских школах (+фото)</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=36023" title="16:52" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-09-01T16:52:15+00:00">01.09.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=36023#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+         <div class="single-article clearfix">
+          <figure>
+           <a href="http://www.orshanka.by/?p=35833" title="Першымі тысячнікамі на Аршаншчыне сталі хлебаробы філіяла «СГЦ «Задняпроўскі» Сяргей Грэкаў і Алег Сушкевіч"><img width="130" height="90" src="http://www.orshanka.by/wp-content/uploads/2017/08/IMG_0097-130x90.jpg" class="attachment-colormag-featured-post-small size-colormag-featured-post-small wp-post-image" alt="Першымі тысячнікамі на Аршаншчыне сталі хлебаробы філіяла «СГЦ «Задняпроўскі» Сяргей Грэкаў і Алег Сушкевіч" title="Першымі тысячнікамі на Аршаншчыне сталі хлебаробы філіяла «СГЦ «Задняпроўскі» Сяргей Грэкаў і Алег Сушкевіч" srcset="http://www.orshanka.by/wp-content/uploads/2017/08/IMG_0097-130x90.jpg 130w, http://www.orshanka.by/wp-content/uploads/2017/08/IMG_0097-392x272.jpg 392w" sizes="(max-width: 130px) 100vw, 130px"></a>
+          </figure>
+          <div class="article-content">
+           <div class="above-entry-meta">
+            <span class="cat-links"><a href="http://www.orshanka.by/?cat=74" rel="category tag">Актуально</a>&nbsp;<a href="http://www.orshanka.by/?cat=1907" rel="category tag">Сельское хозяйство</a>&nbsp;<a href="http://www.orshanka.by/?cat=3623" style="background:#ff8c00" rel="category tag">Фоторепортажи</a>&nbsp;<a href="http://www.orshanka.by/?cat=1906" style="background:#0595bc" rel="category tag">Экономика</a>&nbsp;</span>
+           </div>
+           <h3 class="entry-title"> <a href="http://www.orshanka.by/?p=35833" title="Першымі тысячнікамі на Аршаншчыне сталі хлебаробы філіяла «СГЦ «Задняпроўскі» Сяргей Грэкаў і Алег Сушкевіч">Першымі тысячнікамі на Аршаншчыне сталі хлебаробы філіяла «СГЦ «Задняпроўскі» Сяргей Грэкаў і Алег Сушкевіч</a> </h3>
+           <div class="below-entry-meta">
+            <span class="posted-on"><a href="http://www.orshanka.by/?p=35833" title="16:04" rel="bookmark"><i class="fa fa-calendar-o"></i> <time class="entry-date published" datetime="2017-08-14T16:04:14+00:00">14.08.2017</time></a></span>
+            <span class="byline"><span class="author vcard"><i class="fa fa-user"></i><a class="url fn n" href="http://www.orshanka.by/?author=5" title="orshanka">orshanka</a></span></span>
+            <span class="comments"><i class="fa fa-comment"></i><a href="http://www.orshanka.by/?p=35833#respond">Комментариев нет</a></span>
+           </div>
+          </div>
+         </div>
+        </div>
+       </aside>
+       <aside id="recent-comments-5" class="widget widget_recent_comments clearfix">
+        <h3 class="widget-title"><span>Комментарии</span></h3>
+        <ul id="recentcomments">
+         <li class="recentcomments"><span class="comment-author-link">Валентина</span> к записи <a href="http://www.orshanka.by/?page_id=23322&amp;cpage=3#comment-129261">Доска бесплатных объявлений</a></li>
+         <li class="recentcomments"><span class="comment-author-link">Фёдор</span> к записи <a href="http://www.orshanka.by/?page_id=23322&amp;cpage=3#comment-129254">Доска бесплатных объявлений</a></li>
+         <li class="recentcomments"><span class="comment-author-link">Валентина</span> к записи <a href="http://www.orshanka.by/?page_id=23322&amp;cpage=3#comment-129243">Доска бесплатных объявлений</a></li>
+         <li class="recentcomments"><span class="comment-author-link">Ирина</span> к записи <a href="http://www.orshanka.by/?page_id=23322&amp;cpage=3#comment-129239">Доска бесплатных объявлений</a></li>
+         <li class="recentcomments"><span class="comment-author-link">Виталина Адамовна</span> к записи <a href="http://www.orshanka.by/?page_id=23322&amp;cpage=3#comment-129238">Доска бесплатных объявлений</a></li>
+        </ul>
+       </aside>
+       <aside id="categories-3" class="widget widget_categories clearfix">
+        <h3 class="widget-title"><span>Рубрики</span></h3>
+        <label class="screen-reader-text" for="cat">Рубрики</label>
+        <select name="cat" id="cat" class="postform"> <option value="-1">Выберите рубрику</option> <option class="level-0" value="3666">100 лет «АГ»&nbsp;&nbsp;(6)</option> <option class="level-0" value="74">Актуально&nbsp;&nbsp;(359)</option> <option class="level-0" value="1">Архив&nbsp;&nbsp;(3 009)</option> <option class="level-0" value="1034">Главное&nbsp;&nbsp;(166)</option> <option class="level-0" value="48">Здоровье&nbsp;&nbsp;(206)</option> <option class="level-0" value="154">Культура&nbsp;&nbsp;(604)</option> <option class="level-1" value="1122">&nbsp;&nbsp;&nbsp;Духовное&nbsp;&nbsp;(100)</option> <option class="level-1" value="1163">&nbsp;&nbsp;&nbsp;Хобби&nbsp;&nbsp;(54)</option> <option class="level-0" value="2278">Молодежь&nbsp;&nbsp;(277)</option> <option class="level-1" value="1072">&nbsp;&nbsp;&nbsp;Молодые специалисты&nbsp;&nbsp;(26)</option> <option class="level-1" value="3642">&nbsp;&nbsp;&nbsp;Образование&nbsp;&nbsp;(135)</option> <option class="level-0" value="3639">Общество&nbsp;&nbsp;(927)</option> <option class="level-1" value="3641">&nbsp;&nbsp;&nbsp;Безопасность&nbsp;&nbsp;(134)</option> <option class="level-1" value="3640">&nbsp;&nbsp;&nbsp;Благотворительность&nbsp;&nbsp;(43)</option> <option class="level-1" value="3665">&nbsp;&nbsp;&nbsp;Год науки&nbsp;&nbsp;(13)</option> <option class="level-1" value="3650">&nbsp;&nbsp;&nbsp;Демография&nbsp;&nbsp;(119)</option> <option class="level-1" value="1025">&nbsp;&nbsp;&nbsp;Коммунальное хозяйство&nbsp;&nbsp;(61)</option> <option class="level-1" value="3648">&nbsp;&nbsp;&nbsp;Криминал&nbsp;&nbsp;(41)</option> <option class="level-1" value="3643">&nbsp;&nbsp;&nbsp;Происшествия&nbsp;&nbsp;(32)</option> <option class="level-1" value="940">&nbsp;&nbsp;&nbsp;Экология&nbsp;&nbsp;(106)</option> <option class="level-0" value="3651">Оршанцы&nbsp;&nbsp;(327)</option> <option class="level-1" value="1049">&nbsp;&nbsp;&nbsp;Мнение&nbsp;&nbsp;(105)</option> <option class="level-1" value="20">&nbsp;&nbsp;&nbsp;Портрет&nbsp;&nbsp;(107)</option> <option class="level-1" value="1070">&nbsp;&nbsp;&nbsp;Юбилеи&nbsp;&nbsp;(30)</option> <option class="level-0" value="1067">Официально&nbsp;&nbsp;(280)</option> <option class="level-1" value="3659">&nbsp;&nbsp;&nbsp;Всебелорусское народное собрание&nbsp;&nbsp;(13)</option> <option class="level-1" value="3660">&nbsp;&nbsp;&nbsp;Выборы&nbsp;&nbsp;(35)</option> <option class="level-1" value="3646">&nbsp;&nbsp;&nbsp;Госконтроль&nbsp;&nbsp;(51)</option> <option class="level-1" value="3580">&nbsp;&nbsp;&nbsp;Парламентский дневник&nbsp;&nbsp;(6)</option> <option class="level-0" value="3664">Профсоюзы&nbsp;&nbsp;(48)</option> <option class="level-0" value="24">Спорт&nbsp;&nbsp;(370)</option> <option class="level-1" value="838">&nbsp;&nbsp;&nbsp;Путешествия&nbsp;&nbsp;(8)</option> <option class="level-1" value="3649">&nbsp;&nbsp;&nbsp;Туризм и отдых&nbsp;&nbsp;(7)</option> <option class="level-0" value="3623">Фоторепортажи&nbsp;&nbsp;(178)</option> <option class="level-0" value="1906">Экономика&nbsp;&nbsp;(476)</option> <option class="level-1" value="1349">&nbsp;&nbsp;&nbsp;На предприятиях&nbsp;&nbsp;(181)</option> <option class="level-1" value="1907">&nbsp;&nbsp;&nbsp;Сельское хозяйство&nbsp;&nbsp;(136)</option> <option class="level-1" value="3340">&nbsp;&nbsp;&nbsp;Торговля&nbsp;&nbsp;(76)</option> <option class="level-0" value="3667">Юбилей города&nbsp;&nbsp;(21)</option> </select>
+        <script type="text/javascript">
+/* <![CDATA[ */
+(function() {
+	var dropdown = document.getElementById( "cat" );
+	function onCatChange() {
+		if ( dropdown.options[ dropdown.selectedIndex ].value > 0 ) {
+			location.href = "http://www.orshanka.by/?cat=" + dropdown.options[ dropdown.selectedIndex ].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+})();
+/* ]]> */
+</script>
+       </aside>
+       <aside id="archives-4" class="widget widget_archive clearfix">
+        <h3 class="widget-title"><span>Архивы</span></h3>
+        <label class="screen-reader-text" for="archives-dropdown-4">Архивы</label>
+        <select id="archives-dropdown-4" name="archive-dropdown" onchange="document.location.href=this.options[this.selectedIndex].value;"> <option value="">Выберите месяц</option> <option value="http://www.orshanka.by/?m=201709"> Сентябрь 2017 &nbsp;(17)</option> <option value="http://www.orshanka.by/?m=201708"> Август 2017 &nbsp;(79)</option> <option value="http://www.orshanka.by/?m=201707"> Июль 2017 &nbsp;(49)</option> <option value="http://www.orshanka.by/?m=201706"> Июнь 2017 &nbsp;(71)</option> <option value="http://www.orshanka.by/?m=201705"> Май 2017 &nbsp;(64)</option> <option value="http://www.orshanka.by/?m=201704"> Апрель 2017 &nbsp;(65)</option> <option value="http://www.orshanka.by/?m=201703"> Март 2017 &nbsp;(80)</option> <option value="http://www.orshanka.by/?m=201702"> Февраль 2017 &nbsp;(69)</option> <option value="http://www.orshanka.by/?m=201701"> Январь 2017 &nbsp;(39)</option> <option value="http://www.orshanka.by/?m=201612"> Декабрь 2016 &nbsp;(55)</option> <option value="http://www.orshanka.by/?m=201611"> Ноябрь 2016 &nbsp;(52)</option> <option value="http://www.orshanka.by/?m=201610"> Октябрь 2016 &nbsp;(55)</option> <option value="http://www.orshanka.by/?m=201609"> Сентябрь 2016 &nbsp;(57)</option> <option value="http://www.orshanka.by/?m=201608"> Август 2016 &nbsp;(62)</option> <option value="http://www.orshanka.by/?m=201607"> Июль 2016 &nbsp;(47)</option> <option value="http://www.orshanka.by/?m=201606"> Июнь 2016 &nbsp;(69)</option> <option value="http://www.orshanka.by/?m=201605"> Май 2016 &nbsp;(49)</option> <option value="http://www.orshanka.by/?m=201604"> Апрель 2016 &nbsp;(70)</option> <option value="http://www.orshanka.by/?m=201603"> Март 2016 &nbsp;(38)</option> <option value="http://www.orshanka.by/?m=201602"> Февраль 2016 &nbsp;(41)</option> <option value="http://www.orshanka.by/?m=201601"> Январь 2016 &nbsp;(29)</option> <option value="http://www.orshanka.by/?m=201512"> Декабрь 2015 &nbsp;(32)</option> <option value="http://www.orshanka.by/?m=201511"> Ноябрь 2015 &nbsp;(29)</option> <option value="http://www.orshanka.by/?m=201510"> Октябрь 2015 &nbsp;(32)</option> <option value="http://www.orshanka.by/?m=201509"> Сентябрь 2015 &nbsp;(24)</option> <option value="http://www.orshanka.by/?m=201508"> Август 2015 &nbsp;(30)</option> <option value="http://www.orshanka.by/?m=201507"> Июль 2015 &nbsp;(28)</option> <option value="http://www.orshanka.by/?m=201506"> Июнь 2015 &nbsp;(20)</option> <option value="http://www.orshanka.by/?m=201505"> Май 2015 &nbsp;(28)</option> <option value="http://www.orshanka.by/?m=201504"> Апрель 2015 &nbsp;(30)</option> <option value="http://www.orshanka.by/?m=201503"> Март 2015 &nbsp;(36)</option> <option value="http://www.orshanka.by/?m=201502"> Февраль 2015 &nbsp;(29)</option> <option value="http://www.orshanka.by/?m=201501"> Январь 2015 &nbsp;(14)</option> <option value="http://www.orshanka.by/?m=201412"> Декабрь 2014 &nbsp;(29)</option> <option value="http://www.orshanka.by/?m=201411"> Ноябрь 2014 &nbsp;(19)</option> <option value="http://www.orshanka.by/?m=201410"> Октябрь 2014 &nbsp;(30)</option> <option value="http://www.orshanka.by/?m=201409"> Сентябрь 2014 &nbsp;(24)</option> <option value="http://www.orshanka.by/?m=201408"> Август 2014 &nbsp;(36)</option> <option value="http://www.orshanka.by/?m=201407"> Июль 2014 &nbsp;(31)</option> <option value="http://www.orshanka.by/?m=201406"> Июнь 2014 &nbsp;(31)</option> <option value="http://www.orshanka.by/?m=201405"> Май 2014 &nbsp;(30)</option> <option value="http://www.orshanka.by/?m=201404"> Апрель 2014 &nbsp;(38)</option> <option value="http://www.orshanka.by/?m=201403"> Март 2014 &nbsp;(44)</option> <option value="http://www.orshanka.by/?m=201402"> Февраль 2014 &nbsp;(48)</option> <option value="http://www.orshanka.by/?m=201401"> Январь 2014 &nbsp;(49)</option> <option value="http://www.orshanka.by/?m=201312"> Декабрь 2013 &nbsp;(48)</option> <option value="http://www.orshanka.by/?m=201311"> Ноябрь 2013 &nbsp;(40)</option> <option value="http://www.orshanka.by/?m=201310"> Октябрь 2013 &nbsp;(52)</option> <option value="http://www.orshanka.by/?m=201309"> Сентябрь 2013 &nbsp;(101)</option> <option value="http://www.orshanka.by/?m=201308"> Август 2013 &nbsp;(130)</option> <option value="http://www.orshanka.by/?m=201307"> Июль 2013 &nbsp;(137)</option> <option value="http://www.orshanka.by/?m=201306"> Июнь 2013 &nbsp;(123)</option> <option value="http://www.orshanka.by/?m=201305"> Май 2013 &nbsp;(143)</option> <option value="http://www.orshanka.by/?m=201304"> Апрель 2013 &nbsp;(167)</option> <option value="http://www.orshanka.by/?m=201303"> Март 2013 &nbsp;(96)</option> <option value="http://www.orshanka.by/?m=201302"> Февраль 2013 &nbsp;(90)</option> <option value="http://www.orshanka.by/?m=201301"> Январь 2013 &nbsp;(91)</option> <option value="http://www.orshanka.by/?m=201212"> Декабрь 2012 &nbsp;(83)</option> <option value="http://www.orshanka.by/?m=201211"> Ноябрь 2012 &nbsp;(75)</option> <option value="http://www.orshanka.by/?m=201210"> Октябрь 2012 &nbsp;(108)</option> <option value="http://www.orshanka.by/?m=201209"> Сентябрь 2012 &nbsp;(106)</option> <option value="http://www.orshanka.by/?m=201208"> Август 2012 &nbsp;(111)</option> <option value="http://www.orshanka.by/?m=201207"> Июль 2012 &nbsp;(114)</option> <option value="http://www.orshanka.by/?m=201206"> Июнь 2012 &nbsp;(146)</option> <option value="http://www.orshanka.by/?m=201205"> Май 2012 &nbsp;(152)</option> <option value="http://www.orshanka.by/?m=201204"> Апрель 2012 &nbsp;(211)</option> <option value="http://www.orshanka.by/?m=201203"> Март 2012 &nbsp;(73)</option> <option value="http://www.orshanka.by/?m=201202"> Февраль 2012 &nbsp;(140)</option> <option value="http://www.orshanka.by/?m=201201"> Январь 2012 &nbsp;(1)</option> <option value="http://www.orshanka.by/?m=201112"> Декабрь 2011 &nbsp;(18)</option> <option value="http://www.orshanka.by/?m=201111"> Ноябрь 2011 &nbsp;(114)</option> <option value="http://www.orshanka.by/?m=201110"> Октябрь 2011 &nbsp;(135)</option> <option value="http://www.orshanka.by/?m=201109"> Сентябрь 2011 &nbsp;(178)</option> <option value="http://www.orshanka.by/?m=201108"> Август 2011 &nbsp;(170)</option> <option value="http://www.orshanka.by/?m=201107"> Июль 2011 &nbsp;(145)</option> <option value="http://www.orshanka.by/?m=201106"> Июнь 2011 &nbsp;(211)</option> <option value="http://www.orshanka.by/?m=201105"> Май 2011 &nbsp;(139)</option> <option value="http://www.orshanka.by/?m=201104"> Апрель 2011 &nbsp;(163)</option> <option value="http://www.orshanka.by/?m=201103"> Март 2011 &nbsp;(154)</option> <option value="http://www.orshanka.by/?m=201102"> Февраль 2011 &nbsp;(79)</option> <option value="http://www.orshanka.by/?m=201101"> Январь 2011 &nbsp;(19)</option> <option value="http://www.orshanka.by/?m=201012"> Декабрь 2010 &nbsp;(41)</option> <option value="http://www.orshanka.by/?m=201011"> Ноябрь 2010 &nbsp;(61)</option> <option value="http://www.orshanka.by/?m=201010"> Октябрь 2010 &nbsp;(58)</option> <option value="http://www.orshanka.by/?m=201009"> Сентябрь 2010 &nbsp;(65)</option> <option value="http://www.orshanka.by/?m=201008"> Август 2010 &nbsp;(111)</option> <option value="http://www.orshanka.by/?m=201007"> Июль 2010 &nbsp;(65)</option> <option value="http://www.orshanka.by/?m=201006"> Июнь 2010 &nbsp;(81)</option> <option value="http://www.orshanka.by/?m=201005"> Май 2010 &nbsp;(100)</option> <option value="http://www.orshanka.by/?m=201004"> Апрель 2010 &nbsp;(151)</option> <option value="http://www.orshanka.by/?m=201003"> Март 2010 &nbsp;(70)</option> <option value="http://www.orshanka.by/?m=201002"> Февраль 2010 &nbsp;(26)</option> </select>
+       </aside>
+       <aside id="calendar-4" class="widget widget_calendar clearfix">
+        <h3 class="widget-title"><span>Календарь</span></h3>
+        <div id="calendar_wrap" class="calendar_wrap">
+         <table id="wp-calendar">
+          <caption>
+           Сентябрь 2017
+          </caption>
+          <thead>
+           <tr>
+            <th scope="col" title="Понедельник">Пн</th>
+            <th scope="col" title="Вторник">Вт</th>
+            <th scope="col" title="Среда">Ср</th>
+            <th scope="col" title="Четверг">Чт</th>
+            <th scope="col" title="Пятница">Пт</th>
+            <th scope="col" title="Суббота">Сб</th>
+            <th scope="col" title="Воскресенье">Вс</th>
+           </tr>
+          </thead>
+          <tfoot>
+           <tr>
+            <td colspan="3" id="prev"><a href="http://www.orshanka.by/?m=201708">« Авг</a></td>
+            <td class="pad">&nbsp;</td>
+            <td colspan="3" id="next" class="pad">&nbsp;</td>
+           </tr>
+          </tfoot>
+          <tbody>
+           <tr>
+            <td colspan="4" class="pad">&nbsp;</td>
+            <td><a href="http://www.orshanka.by/?m=20170901" aria-label="Записи, опубликованные 01.09.2017">1</a></td>
+            <td>2</td>
+            <td>3</td>
+           </tr>
+           <tr>
+            <td><a href="http://www.orshanka.by/?m=20170904" aria-label="Записи, опубликованные 04.09.2017">4</a></td>
+            <td><a href="http://www.orshanka.by/?m=20170905" aria-label="Записи, опубликованные 05.09.2017">5</a></td>
+            <td><a href="http://www.orshanka.by/?m=20170906" aria-label="Записи, опубликованные 06.09.2017">6</a></td>
+            <td><a href="http://www.orshanka.by/?m=20170907" aria-label="Записи, опубликованные 07.09.2017">7</a></td>
+            <td id="today"><a href="http://www.orshanka.by/?m=20170908" aria-label="Записи, опубликованные 08.09.2017">8</a></td>
+            <td>9</td>
+            <td>10</td>
+           </tr>
+           <tr>
+            <td>11</td>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+           </tr>
+           <tr>
+            <td>18</td>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td>23</td>
+            <td>24</td>
+           </tr>
+           <tr>
+            <td>25</td>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td class="pad" colspan="1">&nbsp;</td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+       </aside>
+       <aside id="text-24" class="widget widget_text clearfix">
+        <h3 class="widget-title"><span>Новости БелТА</span></h3>
+        <div class="textwidget">
+         <style>
+ .news_inf_belta{border: 1px solid #0033ee;padding: 5px 17px 17px 0px; display: inline-block; width: 310px; position: relative;}
+ .news_inf_belta .news_inf_item{background: url("http://www.belta.by/desimages/top_news_item.png") left 22px no-repeat; padding: 10px 17px 5px 19px; overflow:hidden; width: 310px;}
+.with_photo {background: url('http://www.belta.by/desimages/with_photo.png') no-repeat center top; width: 25px; height: 12px; display: inline-block;}
+.with_video {background: url('http://www.belta.by/desimages/with_video.png') no-repeat center top; width: 25px; height: 12px; display: inline-block;}
+.news_inf_belta .news_inf_item a{font-family: Aria; color: #000; font-size:14px; padding-bottom: 7px; display: inline-block; font-weight: normal; text-decoration: none; }
+ .news_inf_belta :nth-last-of-child(2){border-bottom: 0px;}
+ .news_inf_belta .news_inf_date{font-family: Aria; color: #111; font-size:13px; border-bottom: 1px solid #d2d6d5; padding-bottom:12px;}
+ .news_inf_belta .news_inf_copy{background-color:#0033ee; color:#fff; font-size: 8px;
+                               text-transform: uppercase; font-weight: bold;
+                               padding: 6px; position: absolute; bottom:0; left:0; right:0;}
+</style>
+         <div id="n_t"></div>
+         <script type="text/javascript" id="informerSrc" src="http://www.belta.by/jscript/newsInformerNew.js?countN=3&amp;rubrId=0&amp;cp=0&amp;date_format=d-m-Y&amp;informer_target=blank&amp;date_show=yes"></script>
+        </div>
+       </aside>
+       <aside id="text-23" class="widget widget_text clearfix">
+        <h3 class="widget-title"><span>Погода</span></h3>
+        <div class="textwidget">
+         <center>
+          <!-- Gismeteo informer START -->
+          <link rel="nofollow" type="text/css" href="https://nby01.gismeteo.by/assets/flat-ui/legacy/css/informer.min.css">
+          <div id="gsInformerID-YMYCRb0U8QbPrr" class="gsInformer" style="width:310px;height:200px">
+           <div class="gsIContent">
+            <div id="cityLink">
+             <a rel="nofollow" href="https://www.gismeteo.by/weather-orsha-4236/3-days/" target="_blank">Погода в Орше</a>
+            </div>
+            <div class="gsLinks">
+             <table>
+              <tbody>
+               <tr>
+                <td>
+                 <div class="leftCol">
+                  <a rel="nofollow" href="https://www.gismeteo.by/" target="_blank"> <img alt="Gismeteo" title="Gismeteo" src="https://nby01.gismeteo.by/assets/flat-ui/img/logo-mini2.png" align="middle" border="0"> <span>Gismeteo</span> </a>
+                 </div>
+                 <div class="rightCol">
+                  <a rel="nofollow" href="https://www.gismeteo.by/weather-orsha-4236/10-days/" target="_blank">Прогноз на 2 недели</a>
+                 </div> </td>
+               </tr>
+              </tbody>
+             </table>
+            </div>
+           </div>
+          </div>
+          <script async src="https://www.gismeteo.by/api/informer/getinformer/?hash=YMYCRb0U8QbPrr" type="text/javascript"></script>
+          <!-- Gismeteo informer END -->
+         </center>
+        </div>
+       </aside>
+       <script type="text/javascript">
+<!--
+var _acic={dataProvider:10};(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="//www.acint.net/aci.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+//-->
+</script>
+      </div>
+     </div>
+    </div>
+    <!-- .inner-wrap -->
+   </div>
+   <!-- #main -->
+   <footer id="colophon" class="clearfix">
+    <div class="footer-widgets-wrapper">
+     <div class="inner-wrap">
+      <div class="footer-widgets-area clearfix">
+       <div class="tg-footer-main-widget">
+        <div class="tg-first-footer-widget">
+         <aside id="text-25" class="widget widget_text clearfix">
+          <h3 class="widget-title"><span>Одноклассники</span></h3>
+          <div class="textwidget">
+           <div id="ok_group_widget"></div>
+           <script>
+!function (d, id, did, st) {
+  var js = d.createElement("script");
+  js.src = "http://connect.ok.ru/connect.js";
+  js.onload = js.onreadystatechange = function () {
+  if (!this.readyState || this.readyState == "loaded" || this.readyState == "complete") {
+    if (!this.executed) {
+      this.executed = true;
+      setTimeout(function () {
+        OK.CONNECT.insertGroupWidget(id,did,st);
+      }, 0);
+    }
+  }}
+  d.documentElement.appendChild(js);
+}(document,"ok_group_widget","52826975961336","{width:255,height:335}");
+</script>
+          </div>
+         </aside>
+        </div>
+       </div>
+       <div class="tg-footer-other-widgets">
+        <div class="tg-second-footer-widget">
+        </div>
+        <div class="tg-third-footer-widget">
+         <aside id="text-26" class="widget widget_text clearfix">
+          <h3 class="widget-title"><span>Контакты</span></h3>
+          <div class="textwidget">
+           Учреждение «Редакция районной газеты
+           <br> «Аршанская газета» и программы
+           <br> районного радиовещания»
+           <br> Главный редактор:
+           <br> Турок Анастасия Александровна,
+           <br> тел. 8 (0216) 51-25-75
+           <br> Адрес: А. Герцена, 4а, 211030
+           <br> г. Орша, Витебская область
+           <br> Е-mail: ag41@mail.ru
+          </div>
+         </aside>
+         <aside id="text-28" class="widget widget_text clearfix">
+          <h3 class="widget-title"><span>Статистика</span></h3>
+          <div class="textwidget">
+           <!--LiveInternet counter-->
+           <script type="text/javascript"><!--
+document.write("<a rel="nofollow" href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t12.8;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров за 24"+
+" часа, посетителей за 24 часа и за сегодня' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script>
+           <!--/LiveInternet-->
+           <!--LiveInternet counter-->
+           <script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t53.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров и"+
+" посетителей за 24 часа' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script>
+           <!--/LiveInternet-->
+           <!--Rating@Mail.ru counter-->
+           <script language="javascript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer);js=10;//--></script>
+           <script language="javascript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled();js=11;//--></script>
+           <script language="javascript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height;
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;//--></script>
+           <script language="javascript1.3" type="text/javascript"><!--
+js=13;//--></script>
+           <script language="javascript" type="text/javascript"><!--
+d.write('<a rel="nofollow" href="http://top.mail.ru/jump?from=1801960" target="_top">'+
+'<img src="http://de.c7.bb.a1.top.mail.ru/counter?id=1801960;t=53;js='+js+
+a+';rand='+Math.random()+'" alt="Рейтинг@Mail.ru" border="0" '+
+'height="31" width="88"><\/a>');if(11<js)d.write('<'+'!-- ');//--></script>
+           <noscript>
+            <a target="_top" rel="nofollow" href="http://top.mail.ru/jump?from=1801960"> <img src="http://de.c7.bb.a1.top.mail.ru/counter?js=na;id=1801960;t=53" height="31" width="88" border="0" alt="Рейтинг@Mail.ru"></a>
+           </noscript>
+           <script language="javascript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>');//--></script>
+           <!--// Rating@Mail.ru counter-->
+           <script language="javascript" type="text/javascript"><!--
+d=document;w=window;n=navigator;d.cookie="cc=1";
+r=''+escape(d.referrer);js=10;c=(d.cookie)?1:0;j=0;
+x=Math.random();u=''+escape(w.location.href);lt=0;
+h=history.length;t=new Date;f=(self!=top)?1:0;cd=0;
+tz=t.getTimezoneOffset();cpu=n.cpuClass;ww=wh=ss=0;
+//--></script>
+           <script language="javascript1.1" type="text/javascript"><!--
+js=11;j=(n.javaEnabled()?1:0);
+//--></script>
+           <script language="javascript1.2" type="text/javascript"><!--
+js=12;lt=1;s=screen;ss=s.width;ssh=s.height;
+cd=(s.colorDepth?s.colorDepth:s.pixelDepth);
+//--></script>
+           <script language="javascript1.3" type="text/javascript"><!--
+js=13;wh=w.innerHeight;ww=w.innerWidth;
+wh=(wh?wh:d.documentElement.offsetHeight);
+ww=(ww?ww:d.documentElement.offsetWidth);
+//--></script>
+           <script language="javascript" type="text/javascript"><!--
+q='lik?id=39815&d='+u+'&r='+r+'&h='+h+'&f='+f;
+q+='&c='+c+'&tz='+tz+'&cpu='+cpu+'&js='+js+'&wh='+wh;
+q+='&ww='+ww+'&ss='+ss+'&ssh='+ssh+'&cd='+cd+'&j='+j+'&x='+x;
+d.write('<a target="_top" rel="nofollow" href="http://www.akavita.by/">'+
+'<img src="http://adlik.akavita.com/bin/'+
+q+'" alt="Akavita" '+
+'border="0" width="88" height="31"/></a>');
+//--></script>
+           <noscript>
+            <a target="_top" rel="nofollow" href="http://www.akavita.by/"> <img src="http://adlik.akavita.com/bin/lik?id=39815" border="0" height="31" width="88" alt="Akavita"></a>
+           </noscript>
+           <!-- Akavita counter code -->
+           <script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+           <!-- Yandex.Metrika informer -->
+           <a href="https://metrika.yandex.ru/stat/?id=36668335&amp;from=informer" target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/36668335/3_1_FF8000FF_FF8000FF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" onclick="try{Ya.Metrika.informer({i:this,id:36668335,lang:'ru'});return false}catch(e){}"></a>
+           <!-- /Yandex.Metrika informer -->
+           <!-- Yandex.Metrika counter -->
+           <script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter36668335 = new Ya.Metrika({
+                    id:36668335,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+           <noscript>
+            <div>
+             <img src="https://mc.yandex.ru/watch/36668335" style="position:absolute; left:-9999px;" alt="">
+            </div>
+           </noscript>
+           <!-- /Yandex.Metrika counter -->
+          </div>
+         </aside>
+        </div>
+        <div class="tg-fourth-footer-widget">
+         <aside id="text-27" class="widget widget_text clearfix">
+          <h3 class="widget-title"><span>ВКонтакте</span></h3>
+          <div class="textwidget">
+           <script type="text/javascript" src="//vk.com/js/api/openapi.js?101"></script>
+           <!-- VK Widget -->
+           <div id="vk_groups"></div>
+           <script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 0, width: "250", height: "335", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 49004160);
+</script>
+          </div>
+         </aside>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="footer-socket-wrapper clearfix">
+     <div class="inner-wrap">
+      <div class="footer-socket-area">
+       <div class="footer-socket-right-section">
+        <div class="social-links clearfix">
+         <ul>
+          <li><a href="https://www.facebook.com/orshanka.by/"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="http://ok.ru/arshanskay"><i class="fa fa-odnoklassniki"></i></a></li>
+          <li><a href="http://vk.com/arshanka"><i class="fa fa-vk"></i></a></li>
+         </ul>
+        </div>
+        <!-- .social-links -->
+       </div>
+       <div class="footer-socket-left-sectoin">
+        <div class="copyright">
+         Копирайт © 2017
+         <a href="http://www.orshanka.by/" title="Орша. Новости Орши. Оршанская газета. Аршанская газета"><span>Орша. Новости Орши. Оршанская газета. Аршанская газета</span></a>. Все права защищены.
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+   <a href="#masthead" id="scroll-up"><i class="fa fa-chevron-up"></i></a>
+  </div>
+  <!-- #page -->
+  <!-- ngg_resource_manager_marker -->
+
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.8.1"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/plugins/wp-polls/polls-js.js?ver=2.73.7"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/themes/colormag/js/jquery.bxslider.min.js?ver=4.1.2"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/themes/colormag/js/colormag-slider-setting.js?ver=4.8.1"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/themes/colormag/js/navigation.js?ver=4.8.1"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/themes/colormag/js/fitvids/jquery.fitvids.js?ver=20150311"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-content/themes/colormag/js/fitvids/fitvids-setting.js?ver=20150311"></script>
+  <script type="text/javascript" src="http://www.orshanka.by/wp-includes/js/wp-embed.min.js?ver=4.8.1"></script>
+ </body>
+</html>
