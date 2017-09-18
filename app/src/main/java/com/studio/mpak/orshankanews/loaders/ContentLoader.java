@@ -11,9 +11,10 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
-public class ContentLoader extends AsyncTaskLoader<List<Article>> {
+public class ContentLoader extends AsyncTaskLoader<ArrayList<Article>> {
 
     private static final String LOG_TAG = ContentLoader.class.getSimpleName();
     private String url;
@@ -24,7 +25,7 @@ public class ContentLoader extends AsyncTaskLoader<List<Article>> {
     }
 
     @Override
-    public List<Article> loadInBackground() {
+    public ArrayList<Article> loadInBackground() {
         Document document = null;
         try {
             document = Jsoup.connect(url).timeout(10000).get();

@@ -38,8 +38,8 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
             view = LayoutInflater.from(getContext()).inflate(R.layout.news_item, parent, false);
         }
 
-        TextView category = view.findViewById(R.id.category);
-        category.setText(article.getCategories().toString());
+//        TextView category = view.findViewById(R.id.category);
+//        category.setText(article.getCategories().toString());
 
         TextView title = view.findViewById(R.id.title);
         title.setText(article.getTitle());

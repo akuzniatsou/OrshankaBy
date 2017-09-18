@@ -1,9 +1,12 @@
 package com.studio.mpak.orshankanews.fragments;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+
+import com.studio.mpak.orshankanews.domain.Article;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -13,30 +16,37 @@ import java.util.Map;
 public class CategoryPagerAdapter extends FragmentPagerAdapter {
 
     private Context context;
+    private final ArrayList<Article> data;
     private Map<String, Fragment> tabs = new LinkedHashMap<String, Fragment>(){{
         put("Актуально", new ArticleFragment());
         put("Главное", new ArticleFragment());
-        put("Здоровье", new ArticleFragment());
-        put("Культура", new ArticleFragment());
-        put("Молодежь", new ArticleFragment());
         put("Общество", new ArticleFragment());
-        put("Оршанцы", new ArticleFragment());
+        put("Культура", new ArticleFragment());
         put("Официально", new ArticleFragment());
-        put("Спорт", new ArticleFragment());
+        put("Молодежь", new ArticleFragment());
         put("Экономика", new ArticleFragment());
+        put("Здоровье", new ArticleFragment());
+        put("Спорт", new ArticleFragment());
+        put("Фоторепортажи", new ArticleFragment());
+//        put("Оршанцы", new ArticleFragment());
     }};
 
     private List<String> titles = new ArrayList<>(tabs.keySet());
 
-    public CategoryPagerAdapter(FragmentManager fm, Context context) {
+    public CategoryPagerAdapter(FragmentManager fm, Context context, ArrayList<Article> data) {
         super(fm);
         this.context = context;
+        this.data = data;
     }
 
     @Override
     public Fragment getItem(int position) {
         String title = titles.get(position);
-        return tabs.get(title);
+        Fragment fragment = tabs.get(title);
+        Bundle bundle = new Bundle();
+        bundle.putParcelableArrayList("list", getFilteredList(data, title));
+        fragment.setArguments(bundle);
+        return fragment;
     }
 
     @Override
@@ -48,6 +58,17 @@ public class CategoryPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         return titles.size();
+    }
+
+
+    private ArrayList<Article> getFilteredList(ArrayList<Article> articles, String category) {
+        ArrayList<Article> list = new ArrayList<>();
+        for (Article article : articles) {
+            if (article.getCategories().contains(category)) {
+                list.add(article);
+            }
+        }
+        return list;
     }
 }
 

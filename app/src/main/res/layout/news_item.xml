@@ -9,12 +9,12 @@
 
     >
 
-    <TextView
-        android:id="@+id/category"
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        android:text="Политика"
-        />
+    <!--<TextView-->
+        <!--android:id="@+id/category"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="20dp"-->
+        <!--android:text="Политика"-->
+        <!--/>-->
 
     <LinearLayout
         android:layout_width="match_parent"

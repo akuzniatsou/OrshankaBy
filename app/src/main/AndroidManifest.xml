@@ -15,10 +15,10 @@
         android:theme="@style/AppTheme"
         android:label="@string/app_name">
 
-        <activity android:name="com.studio.mpak.orshankanews.Splash">
+        <activity android:name="com.studio.mpak.orshankanews.Splash"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

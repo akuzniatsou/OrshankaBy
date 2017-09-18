@@ -1,9 +1,12 @@
 package com.studio.mpak.orshankanews.domain;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Article {
+public class Article implements Parcelable {
 
     private int id;
     private List<String> categories = new ArrayList<>();
@@ -15,6 +18,23 @@ public class Article {
     private String author;
     private String comments;
     private String content;
+
+    public Article() {
+    }
+
+    private Article(Parcel parcel) {
+        this();
+        id = parcel.readInt();
+        parcel.readStringList(categories);
+        title = parcel.readString();
+        articleUrl = parcel.readString();
+        imageUrl = parcel.readString();
+        date = parcel.readString();
+        views = parcel.readString();
+        author = parcel.readString();
+        comments = parcel.readString();
+        content = parcel.readString();
+    }
 
     public String getViews() {
         return views;
@@ -98,4 +118,35 @@ public class Article {
     public void setContent(String content) {
         this.content = content;
     }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeInt(id);
+        parcel.writeStringList(categories);
+        parcel.writeString(title);
+        parcel.writeString(articleUrl);
+        parcel.writeString(imageUrl);
+        parcel.writeString(date);
+        parcel.writeString(views);
+        parcel.writeString(author);
+        parcel.writeString(comments);
+        parcel.writeString(content);
+    }
+
+    public static final Parcelable.Creator<Article> CREATOR = new
+            Parcelable.Creator<Article>() {
+                public Article createFromParcel(Parcel in) {
+                    return new Article(in);
+                }
+
+                public Article[] newArray(int size) {
+                    return new Article[size];
+                }
+            };
+
 }

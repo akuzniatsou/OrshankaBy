@@ -71,15 +71,15 @@ public class HtmlParser {
         return response;
     }
 
-    public static List<Article> extractArticles(Document document) {
+    public static ArrayList<Article> extractArticles(Document document) {
         if (document == null) {
-            return Collections.emptyList();
+            return new ArrayList<>();
         }
         document.select("script,.hidden,style").remove();
 //        document.select("header, footer").remove();
 //        document.select(".front-page-top-section").remove();
         HashMap<Integer, Article> articleHashMap = new LinkedHashMap<>();
-        List<Article> articleList = new ArrayList<>();
+        ArrayList<Article> articleList = new ArrayList<>();
 //        Elements items = document.getElementsByClass("single-article");
         Elements items = document.select(".single-slide");
         for (Element item : items) {
@@ -104,9 +104,9 @@ public class HtmlParser {
             articleList.add(article);
             articleHashMap.put(article.getId(), article);
         }
+        articleList = new ArrayList<>(articleHashMap.values());
 
-
-        return new ArrayList<>(articleHashMap.values());
+        return articleList;
     }
 
     @Nullable

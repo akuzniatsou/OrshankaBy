@@ -24,6 +24,7 @@ public class WebViewActivity extends Activity implements LoaderManager.LoaderCal
         setContentView(com.studio.mpak.orshankanews.R.layout.web_main);
         webView = findViewById(com.studio.mpak.orshankanews.R.id.webView1);
         webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
+        webView.getSettings().setJavaScriptEnabled(true);
         articleUrl = getIntent().getStringExtra(ArticleEntry.COLUMN_URL);
         getLoaderManager().initLoader(ARTICLE_LOADER_ID, null, this);
     }
