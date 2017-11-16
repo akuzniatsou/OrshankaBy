@@ -30,6 +30,7 @@ public class ArticleLoader extends AsyncTaskLoader<Article> {
         } catch (IOException e) {
             Log.e(LOG_TAG, "Error with creating URL", e);
         }
+//        return HtmlParser.fetchArticleFull(document);
         return HtmlParser.fetchArticle(document);
     }
 

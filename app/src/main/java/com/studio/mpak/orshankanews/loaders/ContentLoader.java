@@ -1,9 +1,12 @@
 package com.studio.mpak.orshankanews.loaders;
 
 import android.content.AsyncTaskLoader;
+import android.content.ContentValues;
 import android.content.Context;
 import android.util.Log;
 
+import com.studio.mpak.orshankanews.data.ArticleContract;
+import com.studio.mpak.orshankanews.data.ArticleContract.ArticleEntry;
 import com.studio.mpak.orshankanews.domain.Article;
 import com.studio.mpak.orshankanews.utils.HtmlParser;
 
@@ -32,7 +35,17 @@ public class ContentLoader extends AsyncTaskLoader<ArrayList<Article>> {
         } catch (IOException e) {
             Log.e(LOG_TAG, "Error with creating URL", e);
         }
-        return HtmlParser.extractArticles(document);
+        ArrayList<Article> articles = HtmlParser.extractArticles(document);
+        for (Article article : articles) {
+            ContentValues values = new ContentValues();
+            values.put(ArticleEntry._ID, article.getId());
+            values.put(ArticleEntry.COLUMN_TITLE, article.getTitle());
+            values.put(ArticleEntry.COLUMN_URL, article.getArticleUrl());
+            values.put(ArticleEntry.COLUMN_SCR_IMAGE, article.getImageUrl());
+            values.put(ArticleEntry.COLUMN_PUB_DATE, article.getDate());
+            getContext().getContentResolver().insert(ArticleEntry.CONTENT_URI, values);
+        }
+        return articles;
     }
 
     @Override

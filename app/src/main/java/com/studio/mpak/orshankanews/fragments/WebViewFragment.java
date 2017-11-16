@@ -29,7 +29,7 @@ public class WebViewFragment extends Fragment implements LoaderManager.LoaderCal
         View v = inflater.inflate(R.layout.web_main, container, false);
         webView = v.findViewById(com.studio.mpak.orshankanews.R.id.webView1);
         webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
-
+        webView.getSettings().setJavaScriptEnabled(true);
         articleUrl = getArguments().getString(ArticleEntry.COLUMN_URL);
         getLoaderManager().initLoader(ARTICLE_LOADER_ID, null, this);
         return v;
@@ -42,7 +42,7 @@ public class WebViewFragment extends Fragment implements LoaderManager.LoaderCal
 
     @Override
     public void onLoadFinished(Loader<Article> loader, Article article) {
-        webView.loadDataWithBaseURL(null, article.getContent(),"text/html", "UTF-8", null);
+        webView.loadDataWithBaseURL(articleUrl, article.getContent(),"text/html", "UTF-8", null);
     }
 
     @Override

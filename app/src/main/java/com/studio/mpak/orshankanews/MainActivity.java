@@ -29,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Article> articles = getIntent().getParcelableArrayListExtra("list");
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
-        fAdapter = new CategoryPagerAdapter(getSupportFragmentManager(), MainActivity.this, articles);
+        viewPager.setOffscreenPageLimit(1);
+        fAdapter = new CategoryPagerAdapter(getFragmentManager(), MainActivity.this, articles);
+
         viewPager.setAdapter(fAdapter);
 
         // Give the TabLayout the ViewPager
@@ -87,21 +89,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.main_menu, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.action_refresh:
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        MenuInflater inflater = getMenuInflater();
+//        inflater.inflate(R.menu.main_menu, menu);
+//        return true;
+//    }
+//
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        switch (item.getItemId()) {
+//            case R.id.action_refresh:
+//                return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @Override
     public void onBackPressed() {

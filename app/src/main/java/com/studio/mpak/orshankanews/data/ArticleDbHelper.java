@@ -11,7 +11,7 @@ public class ArticleDbHelper extends SQLiteOpenHelper {
     public static final String LOG_TAG = ArticleDbHelper.class.getSimpleName();
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "shelter.db";
+    private static final String DATABASE_NAME = "orshanka.db";
 
     private static final String SQL_CREATE_ENTRIES =
             "CREATE TABLE " + ArticleEntry.TABLE_NAME + " ("
@@ -20,6 +20,8 @@ public class ArticleDbHelper extends SQLiteOpenHelper {
                     + ArticleEntry.COLUMN_URL + " TEXT NOT NULL, "
                     + ArticleEntry.COLUMN_SCR_IMAGE + " TEXT NOT NULL, "
                     + ArticleEntry.COLUMN_CONTENT + " TEXT, "
+                    + ArticleEntry.COLUMN_COMMENT_COUNT + " TEXT, "
+                    + ArticleEntry.COLUMN_CATEGORY + " TEXT, "
                     + ArticleEntry.COLUMN_PUB_DATE + " TEXT NOT NULL);";
 
     private static final String SQL_DELETE_ENTRIES =

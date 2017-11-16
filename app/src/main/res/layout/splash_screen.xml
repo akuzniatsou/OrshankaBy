@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:background="@android:color/white"
         android:padding="24dp"
-        android:src="@drawable/logo1"
+        android:src="@drawable/logo2"
 
         />
 

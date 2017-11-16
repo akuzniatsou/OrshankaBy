@@ -18,6 +18,7 @@ public class Article implements Parcelable {
     private String author;
     private String comments;
     private String content;
+    private String description;
 
     public Article() {
     }
@@ -34,6 +35,7 @@ public class Article implements Parcelable {
         author = parcel.readString();
         comments = parcel.readString();
         content = parcel.readString();
+        description = parcel.readString();
     }
 
     public String getViews() {
@@ -119,6 +121,14 @@ public class Article implements Parcelable {
         this.content = content;
     }
 
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     @Override
     public int describeContents() {
         return 0;
@@ -136,6 +146,7 @@ public class Article implements Parcelable {
         parcel.writeString(author);
         parcel.writeString(comments);
         parcel.writeString(content);
+        parcel.writeString(description);
     }
 
     public static final Parcelable.Creator<Article> CREATOR = new

@@ -26,9 +26,12 @@ public class ArticleContract {
         public final static String _ID = BaseColumns._ID;
         public final static String COLUMN_TITLE ="title";
         public final static String COLUMN_URL = "url";
-        public final static String COLUMN_SCR_IMAGE = "src";
+        public final static String COLUMN_SCR_IMAGE = "img";
         public final static String COLUMN_PUB_DATE = "date";
         public final static String COLUMN_CONTENT = "content";
+        public final static String COLUMN_DESCRIPTION = "description";
+        public final static String COLUMN_CATEGORY = "category_id";
+        public final static String COLUMN_COMMENT_COUNT = "comment_count";
 
 
 
