@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/soc_share_panel"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:visibility="invisible">
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/vk"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:onClick="vkShareAction"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ok"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:onClick="okShareAction"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/fb"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:onClick="fbShareAction"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/twitter"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:adjustViewBounds="true"
+        android:onClick="tweetShareAction"/>
+
+</LinearLayout>

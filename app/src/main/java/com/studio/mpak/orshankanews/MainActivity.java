@@ -28,14 +28,14 @@ public class MainActivity extends AppCompatActivity {
 
 
         ArrayList<Article> articles = getIntent().getParcelableArrayListExtra("list");
-        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
+        ViewPager viewPager = findViewById(R.id.viewpager);
         viewPager.setOffscreenPageLimit(1);
         fAdapter = new CategoryPagerAdapter(getFragmentManager(), MainActivity.this, articles);
 
         viewPager.setAdapter(fAdapter);
 
         // Give the TabLayout the ViewPager
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
+        TabLayout tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
         /*

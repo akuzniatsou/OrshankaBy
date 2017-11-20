@@ -4,13 +4,19 @@ import android.app.Activity;
 import android.app.LoaderManager;
 import android.content.Intent;
 import android.content.Loader;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.ScrollView;
 import android.widget.ShareActionProvider;
 
 import com.studio.mpak.orshankanews.data.ArticleContract;
@@ -20,19 +26,37 @@ import com.studio.mpak.orshankanews.loaders.ArticleLoader;
 
 public class WebViewActivity extends Activity implements LoaderManager.LoaderCallbacks<Article> {
 
+    private Article article;
     private WebView webView;
     private String articleUrl;
+    private View buttonView;
+    private ScrollView scrollView;
     public static final int ARTICLE_LOADER_ID = 1;
+    private boolean isShareScreen = false;
     private ShareActionProvider mShareActionProvider;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.studio.mpak.orshankanews.R.layout.web_main);
-        webView = findViewById(com.studio.mpak.orshankanews.R.id.webView1);
+        setContentView(R.layout.web_main);
+        webView = findViewById(R.id.webView1);
+        buttonView = findViewById(R.id.soc_share_panel);
+        scrollView = findViewById(R.id.scrollView);
+
+
 //        webView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
         webView.getSettings().setJavaScriptEnabled(true);
-//        webView.setWebChromeClient(new WebChromeClient());
-//        webView.setWebViewClient(new WebViewClient());
+//        webView.setWebChromeClient(new c());
+        webView.setWebViewClient(new WebViewClient(){
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                if (isShareScreen) {
+                    buttonView.setVisibility(View.GONE);
+                } else {
+                    buttonView.setVisibility(View.VISIBLE);
+                }
+                scrollView.scrollTo(0,0);
+            }
+        });
 //        webView.getSettings().setDomStorageEnabled(true);
 //
 //        webView.getSettings().setLoadWithOverviewMode(true);
@@ -51,6 +75,7 @@ public class WebViewActivity extends Activity implements LoaderManager.LoaderCal
     @Override
     public void onLoadFinished(Loader<Article> loader, Article article) {
         webView.loadDataWithBaseURL(article.getArticleUrl(), article.getContent(),"text/html", "UTF-8", null);
+
     }
 
     @Override
@@ -103,4 +128,41 @@ public class WebViewActivity extends Activity implements LoaderManager.LoaderCal
             mShareActionProvider.setShareIntent(shareIntent);
         }
     }
+
+
+    public void fbShareAction(View view) {
+        hideShareButton();
+        Uri url = Uri.parse("https://www.facebook.com/sharer.php").buildUpon()
+                .appendQueryParameter("u", articleUrl).build();
+        webView.loadUrl(url.toString());
+    }
+
+    public void okShareAction(View view) {
+        hideShareButton();
+        Uri url = Uri.parse("https://connect.ok.ru/offer").buildUpon()
+                .appendQueryParameter("url", articleUrl).build();
+        webView.loadUrl(url.toString());
+    }
+
+    public void vkShareAction(View view) {
+        hideShareButton();
+        Uri url = Uri.parse("https://vk.com/share.php").buildUpon()
+                .appendQueryParameter("url", articleUrl).build();
+        webView.loadUrl(url.toString());
+    }
+
+    public void tweetShareAction(View view) {
+        hideShareButton();
+        Uri url = Uri.parse("https://twitter.com/intent/tweet").buildUpon()
+                .appendQueryParameter("url", articleUrl).build();
+        webView.loadUrl(url.toString());
+
+    }
+
+    private void hideShareButton() {
+        isShareScreen = true;
+        buttonView.setVisibility(View.GONE);
+    }
+
+
 }

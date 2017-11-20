@@ -71,48 +71,12 @@ public class HtmlParser {
         content.select(".post-views > a").prepend("Просмотров: ").removeAttr("href");
         content.select(".author, .comments, .cat-links, .uptolike-buttons").remove();
 
-        String htmlHead =
-                "    <meta property=\"og:title\" content=\"" + article.getTitle() + "\" />\n" +
-                        "    <meta property=\"og:description\" content=\"" + textShorted + "\" />\n" +
-                        "    <meta property=\"og:type\" content=\"article\"/>\n" +
-                        "    <meta property=\"og:url\" content=\"" + article.getArticleUrl() + "\" />\n" +
-                        "    <meta property=\"og:site_name\" content=\"Оршанская газета\"/>\n" +
-                        "    <meta property=\"og:image\" content=\"" + article.getImageUrl() + "\" />\n" +
-                        "    <meta name=\"description\" content=\"" +textShorted+ "\" />\n"
-                ;
-
-        String okButtons = "<div id=\"ok_shareWidget\"></div>\n" +
-                "<script>\n" +
-                "!function (d, id, did, st, title, description, image) {\n" +
-                "  var js = d.createElement(\"script\");\n" +
-                "  js.src = \"https://connect.ok.ru/connect.js\";\n" +
-                "  js.onload = js.onreadystatechange = function () {\n" +
-                "  if (!this.readyState || this.readyState == \"loaded\" || this.readyState == \"complete\") {\n" +
-                "    if (!this.executed) {\n" +
-                "      this.executed = true;\n" +
-                "      setTimeout(function () {\n" +
-                "        OK.CONNECT.insertShareWidget(id,did,st, title, description, image);\n" +
-                "      }, 0);\n" +
-                "    }\n" +
-                "  }};\n" +
-                "  d.documentElement.appendChild(js);\n" +
-                "}(document,\"ok_shareWidget\",document.URL,'{\"sz\":45,\"st\":\"rounded\",\"nc\":1,\"nt\":1}',\"\",\"\",\"\");\n" +
-                "</script>";
-
-        String vkButton = "<script type=\"text/javascript\" src=\"https://vk.com/js/api/share.js?95\" charset=\"windows-1251\"></script>\n" +
-                "<script type=\"text/javascript\">\n" +
-                "document.write(VK.Share.button({url: \""+ articleUrl +"\"},{type: \"article\", text: \"<img src=\\\"https://vk.com/images/share_32.png\\\" width=\\\"45\\\" height=\\\"45\\\" />\"}));\n" +
-                "</script>";
-
 
         String htmlMain = "<html prefix=\"og: http://ogp.me/ns#\"><head><title>" + article.getTitle()+ "</title>\n" +
-                IMAGE_STYLE + NEW_LINE + VIDEO_STYLE + NEW_LINE + TEXT_STYLE + NEW_LINE
-                + htmlHead + NEW_LINE +
+                IMAGE_STYLE + NEW_LINE + VIDEO_STYLE + NEW_LINE + TEXT_STYLE + NEW_LINE +
                 "</head>"+ NEW_LINE +
                 "<body>"+ NEW_LINE +
                 content.html()+ NEW_LINE +
-                okButtons + NEW_LINE +
-                vkButton + NEW_LINE +
                 "</body>"+ NEW_LINE +
                 "</html>";
 

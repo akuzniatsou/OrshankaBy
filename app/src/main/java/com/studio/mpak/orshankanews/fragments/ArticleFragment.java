@@ -68,7 +68,8 @@ public class ArticleFragment extends Fragment implements LoaderManager.LoaderCal
                 Intent intent = new Intent(getActivity().getApplicationContext(), WebViewActivity.class);
                 intent.putExtra(ArticleContract.ArticleEntry.COLUMN_URL, webPage.toString());
                 startActivity(intent);
-                mAdapter.setNotifyOnChange(false);
+//                mAdapter.setNotifyOnChange(false);
+                mAdapter.notifyDataSetChanged();
             }
 
         });
