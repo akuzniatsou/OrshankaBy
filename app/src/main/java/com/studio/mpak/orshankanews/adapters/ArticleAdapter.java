@@ -45,44 +45,41 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
             view = LayoutInflater.from(getContext()).inflate(R.layout.news_item, parent, false);
         }
 
-//        TextView category = view.findViewById(R.id.category);
-//        category.setText(article.getCategories().toString());
-
         TextView title = view.findViewById(R.id.title);
         title.setText(article.getTitle());
 
         ImageView imageView = view.findViewById(R.id.img);
         String link = getEncodedUrl(article.getImageUrl());
         if (link == null || TextUtils.isEmpty(link)) {
-//            Picasso.with(getContext()).load(R.drawable.image_missing).into(imageView);
-
-            Glide.with(getContext()).load(R.drawable.image_missing).into(imageView);
+            // Default image if missing
+//            Glide.with(getContext()).load(R.drawable.image_missing).into(imageView);
+            imageView.setVisibility(View.GONE);
         } else {
-//            Picasso.with(getContext()).load(link).error(R.drawable.image_missing).into(imageView);
             Glide.with(getContext()).load(link).into(imageView);
         }
 
         TextView date = view.findViewById(R.id.date);
         date.setText(article.getDate());
 
-        FlexboxLayout linearLayout = view.findViewById(R.id.tags);
-        linearLayout.removeAllViews();
-        for (String category : article.getCategories()) {
-            int categoryColor = getTagColor(category);
-
-            TextView categoryView = new TextView(getContext());
-
-            categoryView.setBackgroundResource(R.drawable.round_rect_shape);
-            ((GradientDrawable)categoryView.getBackground()).setColor(categoryColor);
-            categoryView.setText(String.format("#%s", category));
-            LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
-            params.setMargins(5,0,5,0);
-            categoryView.setLayoutParams(params);
-            categoryView.setPadding(2,2,2,2);
-            categoryView.setTextColor(ContextCompat.getColor(getContext(), R.color.colorCategory));
-            categoryView.setTextSize(10);
-            linearLayout.addView(categoryView);
-        }
+        // Hashtags
+//        FlexboxLayout linearLayout = view.findViewById(R.id.tags);
+//        linearLayout.removeAllViews();
+//        for (String category : article.getCategories()) {
+//            int categoryColor = getTagColor(category);
+//
+//            TextView categoryView = new TextView(getContext());
+//
+//            categoryView.setBackgroundResource(R.drawable.round_rect_shape);
+//            ((GradientDrawable)categoryView.getBackground()).setColor(categoryColor);
+//            categoryView.setText(String.format("#%s", category));
+//            LayoutParams params = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
+//            params.setMargins(5,0,5,0);
+//            categoryView.setLayoutParams(params);
+//            categoryView.setPadding(2,2,2,2);
+//            categoryView.setTextColor(ContextCompat.getColor(getContext(), R.color.colorCategory));
+//            categoryView.setTextSize(10);
+//            linearLayout.addView(categoryView);
+//        }
 
         return view;
     }
@@ -134,4 +131,5 @@ public class ArticleAdapter extends ArrayAdapter<Article> {
         }
         return ContextCompat.getColor(getContext(), color);
     }
+
 }

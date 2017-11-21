@@ -1,21 +1,26 @@
 package com.studio.mpak.orshankanews;
 
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.design.widget.TabLayout;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
-import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 
-import com.studio.mpak.orshankanews.adapters.ArticleAdapter;
 import com.studio.mpak.orshankanews.domain.Article;
 import com.studio.mpak.orshankanews.fragments.CategoryPagerAdapter;
 
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private static final String LOG_TAG = MainActivity.class.getSimpleName();
     CategoryPagerAdapter fAdapter;
@@ -26,7 +31,30 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+//        getSupportActionBar().setLogo(R.drawable.logo2_toolbar);
+        
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
+            }
+        });
 
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
+                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
+        drawer.addDrawerListener(toggle);
+        toggle.syncState();
+
+        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView.setNavigationItemSelectedListener(this);
+        
+        
         ArrayList<Article> articles = getIntent().getParcelableArrayListExtra("list");
         ViewPager viewPager = findViewById(R.id.viewpager);
         viewPager.setOffscreenPageLimit(1);
@@ -38,77 +66,67 @@ public class MainActivity extends AppCompatActivity {
         TabLayout tabLayout = findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(viewPager);
 
-        /*
 
 
-        final ListView listView = (ListView) findViewById(com.studio.mpak.orshankanews.R.id.list);
-        mAdapter = new ArticleAdapter(this, new ArrayList<Article>());
-        listView.setAdapter(mAdapter);
-
-        mEmptyStateTextView = (TextView) findViewById(com.studio.mpak.orshankanews.R.id.empty_view);
-        listView.setEmptyView(mEmptyStateTextView);
-
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
-//                Article article = (Article) listView.getItemAtPosition(position);
-//                Uri webPage = Uri.parse(article.getArticleUrl());
-//
-//                WebViewFragment fragment = new WebViewFragment();
-//                Bundle args = new Bundle();
-//                args.putString(ArticleEntry.COLUMN_URL, webPage.toString());
-//                fragment.setArguments(args);
-//                getFragmentManager().beginTransaction().replace(R.id.main, fragment, TAG_FRAGMENT).addToBackStack(null).commit();
-
-
-                Article article = (Article) listView.getItemAtPosition(position);
-                Uri webPage = Uri.parse(article.getArticleUrl());
-                Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
-                intent.putExtra(ArticleEntry.COLUMN_URL, webPage.toString());
-                startActivity(intent);
-                mAdapter.setNotifyOnChange(false);
-            }
-
-        });
-
-        refreshLayout = (SwipeRefreshLayout) findViewById(R.id.swiperefresh);
-        refreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                mAdapter.clear();
-                mAdapter.setNotifyOnChange(true);
-                uri = "http://www.orshanka.by/?m=201708&paged=" + page;
-                getLoaderManager().restartLoader(CONTENT_LOADER_ID, null, MainActivity.this);
-                page++;
-            }
-        });
-*/
 
 
     }
 
-
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        MenuInflater inflater = getMenuInflater();
-//        inflater.inflate(R.menu.main_menu, menu);
-//        return true;
-//    }
-//
-//    @Override
-//    public boolean onOptionsItemSelected(MenuItem item) {
-//        switch (item.getItemId()) {
-//            case R.id.action_refresh:
-//                return true;
-//        }
-//        return super.onOptionsItemSelected(item);
-//    }
+    public void onBackPressed() {
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        if (drawer.isDrawerOpen(GravityCompat.START)) {
+            drawer.closeDrawer(GravityCompat.START);
+        } else {
+            finish();
+            super.onBackPressed();
+        }
+    }
 
     @Override
-    public void onBackPressed() {
-        finish();
-        super.onBackPressed();
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_settings) {
+            return true;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @SuppressWarnings("StatementWithEmptyBody")
+    @Override
+    public boolean onNavigationItemSelected(MenuItem item) {
+        // Handle navigation view item clicks here.
+        int id = item.getItemId();
+
+        if (id == R.id.nav_camera) {
+            // Handle the camera action
+        } else if (id == R.id.nav_gallery) {
+
+        } else if (id == R.id.nav_slideshow) {
+
+        } else if (id == R.id.nav_manage) {
+
+        } else if (id == R.id.nav_share) {
+
+        } else if (id == R.id.nav_send) {
+
+        }
+
+        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+        drawer.closeDrawer(GravityCompat.START);
+        return true;
     }
 
 
