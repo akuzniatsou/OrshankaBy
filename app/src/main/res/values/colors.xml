@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="subHeader">#000000</color>
+    <color name="subElement">#555555</color>
 
     <color name="colorSociety">#55ac55</color>
     <color name="colorActual">#dd3535</color>

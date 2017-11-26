@@ -28,12 +28,25 @@
             android:theme="@style/AppFullScreenTheme"
             />
         <activity android:name="com.studio.mpak.orshankanews.WebViewActivity"/>
-
-        <provider
-            android:name=".data.ArticleProvider"
-            android:authorities="com.studio.mpak.orshankanews"
-            android:exported="false"
-            />
+        <activity
+            android:name="com.studio.mpak.orshankanews.SettingsActivity"
+            android:label="@string/settings_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.studio.mpak.orshankanews.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.studio.mpak.orshankanews.AnnouncementActivity"
+            android:label="@string/announcement_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.studio.mpak.orshankanews.MainActivity"/>
+        </activity>
+        <!--<provider-->
+            <!--android:name=".data.ArticleProvider"-->
+            <!--android:authorities="com.studio.mpak.orshankanews"-->
+            <!--android:exported="false"-->
+            <!--/>-->
     </application>
 
 

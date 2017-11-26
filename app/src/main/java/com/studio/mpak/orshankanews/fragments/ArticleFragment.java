@@ -1,14 +1,14 @@
 package com.studio.mpak.orshankanews.fragments;
 
 
-import android.app.Fragment;
-import android.app.LoaderManager;
 import android.content.Intent;
-import android.content.Loader;
 import android.net.Uri;
 import android.os.Bundle;
 
 import android.support.annotation.Nullable;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.content.Loader;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -40,21 +40,15 @@ public class ArticleFragment extends Fragment implements LoaderManager.LoaderCal
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.article_list, container, false);
-
+        View rootView = inflater.inflate(R.layout.list_activity, container, false);
         mAdapter = new ArticleAdapter(getActivity(), new ArrayList<Article>());
-
         final ListView listView = rootView.findViewById(R.id.list);
         listView.setAdapter(mAdapter);
-
         listView.setOnScrollListener(new EndlessScrollListener() {
             @Override
             public boolean onLoadMore(int page, int totalItemsCount) {
-                // Triggered only when new data needs to be appended to the list
-                // Add whatever code is needed to append new items to your AdapterView
                 loadNextDataFromApi(page);
-                // or loadNextDataFromApi(totalItemsCount);
-                return true; // ONLY if more data is actually being loaded; false otherwise.
+                return true;
             }
         });
 
@@ -68,10 +62,8 @@ public class ArticleFragment extends Fragment implements LoaderManager.LoaderCal
                 Intent intent = new Intent(getActivity().getApplicationContext(), WebViewActivity.class);
                 intent.putExtra(ArticleContract.ArticleEntry.COLUMN_URL, webPage.toString());
                 startActivity(intent);
-//                mAdapter.setNotifyOnChange(false);
                 mAdapter.notifyDataSetChanged();
             }
-
         });
 
         categoryId = getArguments().getString("url");
@@ -92,11 +84,6 @@ public class ArticleFragment extends Fragment implements LoaderManager.LoaderCal
         url = String.format(ARTICLE_URL_PAGED, categoryId, offset);
         getLoaderManager().restartLoader(LOADER_ID, null, this);
         mAdapter.notifyDataSetChanged();
-        // Send an API request to retrieve appropriate paginated data
-        //  --> Send the request including an offset value (i.e `page`) as a query parameter.
-        //  --> Deserialize and construct new model objects from the API response
-        //  --> Append the new data objects to the existing set of items inside the array of items
-        //  --> Notify the adapter of the new items made with `notifyDataSetChanged()`
     }
 
     @Override
@@ -106,7 +93,6 @@ public class ArticleFragment extends Fragment implements LoaderManager.LoaderCal
 
     @Override
     public void onLoadFinished(Loader<ArrayList<Article>> loader, ArrayList<Article> data) {
-//        mAdapter.clear();
         bar.setVisibility(View.GONE);
         if (data != null && !data.isEmpty()) {
             mAdapter.addAll(data);

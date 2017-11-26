@@ -3,11 +3,14 @@ package com.studio.mpak.orshankanews.utils;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
+import com.studio.mpak.orshankanews.domain.Announcement;
 import com.studio.mpak.orshankanews.domain.Article;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
+import org.jsoup.nodes.TextNode;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
@@ -16,6 +19,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Objects;
 
 public class HtmlParser {
 
@@ -135,5 +139,51 @@ public class HtmlParser {
         article.setDate(item.select(".posted-on").text());
         article.setContent(item.select(".entry-content").text());
         return article;
+    }
+
+    public static ArrayList<Announcement> extractAnnouncement(Document document) {
+        if (document == null) {
+            return null;
+        }
+
+        document.select("script,.hidden,style, a, img").remove();
+//        document.select(":containsOwn(\u00a0)").remove();
+        Element content = document.getElementById("content");
+
+        for (Element element : content.select("*")) {
+            if (!element.hasText() && element.isBlock()) {
+                element.remove();
+            }
+        }
+        content.select("h4").first().remove();
+        content.select("h4").tagName("p");
+        content.select("p").first().remove();
+        Elements select = content.select("p");
+        ArrayList<Announcement> announcements = new ArrayList<>();
+        Announcement announcement = null;
+        for (Element element : select) {
+            List<Node> nodes = element.childNodes();
+            for (Node node : nodes) {
+                if (node.nodeName().equals("strong")) {
+                    if (announcement != null) {
+                        announcements.add(announcement);
+                    }
+                    announcement = new Announcement();
+                    announcement.setPlace(((Element)node).text());
+                } else {
+                    if (node instanceof TextNode) {
+                        String event = ((TextNode) node).text();
+                        event = event.trim();
+                        if (!event.equals("")) {
+                            announcement.getEvents().add(event);
+                        }
+                    }
+                }
+            }
+        }
+        if (announcement != null) {
+            announcements.add(announcement);
+        }
+        return announcements;
     }
 }

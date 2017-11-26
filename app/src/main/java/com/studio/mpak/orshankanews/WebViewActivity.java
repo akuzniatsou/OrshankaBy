@@ -4,29 +4,19 @@ import android.app.Activity;
 import android.app.LoaderManager;
 import android.content.Intent;
 import android.content.Loader;
-import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ScrollView;
-import android.widget.ShareActionProvider;
 
-import com.studio.mpak.orshankanews.data.ArticleContract;
 import com.studio.mpak.orshankanews.data.ArticleContract.ArticleEntry;
 import com.studio.mpak.orshankanews.domain.Article;
 import com.studio.mpak.orshankanews.loaders.ArticleLoader;
 
 public class WebViewActivity extends Activity implements LoaderManager.LoaderCallbacks<Article> {
 
-    private Article article;
     private WebView webView;
     private String articleUrl;
     private View buttonView;
@@ -71,29 +61,6 @@ public class WebViewActivity extends Activity implements LoaderManager.LoaderCal
     public void onBackPressed() {
         super.onBackPressed();
     }
-
-
-
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate menu resource file.
-//        getMenuInflater().inflate(R.menu.share_menu, menu);
-//
-//        // Locate MenuItem with ShareActionProvider
-//        MenuItem item = menu.findItem(R.id.menu_item_share);
-//
-//        // Fetch and store ShareActionProvider
-//        mShareActionProvider = (ShareActionProvider) item.getActionProvider();
-
-        // Return true to display menu
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-            return super.onOptionsItemSelected(item);
-   }
 
     public void fbShareAction(View view) {
         Uri uri = Uri.parse("https://www.facebook.com/sharer.php").buildUpon()
