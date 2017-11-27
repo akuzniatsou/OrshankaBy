@@ -1,5 +1,6 @@
 package com.studio.mpak.orshankanews.domain;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +8,15 @@ public class Announcement<T> {
     private int id;
     private List<T> events = new ArrayList<>();
     private String place;
+
+    public Announcement() {
+    }
+
+    public Announcement(Announcement<T> announcement) {
+        this.id = announcement.getId();
+        this.events = announcement.getEvents();
+        this.place = announcement.getPlace();
+    }
 
     public int getId() {
         return id;
@@ -42,5 +52,9 @@ public class Announcement<T> {
                 ", events=" + events +
                 ", place='" + place + '\'' +
                 '}';
+    }
+
+    public boolean contains(String query) {
+        return place.toLowerCase().contains(query);
     }
 }

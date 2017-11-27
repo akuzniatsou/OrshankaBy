@@ -10,20 +10,21 @@ import android.widget.TextView;
 import com.studio.mpak.orshankanews.R;
 import com.studio.mpak.orshankanews.domain.Announcement;
 import com.studio.mpak.orshankanews.domain.Vacancy;
+import com.studio.mpak.orshankanews.utils.CollectionUtils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 
 public class ExpandableVacancyAdapter extends BaseExpandableListAdapter {
 
     private ArrayList<Announcement<Vacancy>> announcements;
-    private ArrayList<Announcement<Vacancy>> origin;
+    private ArrayList<Announcement<Vacancy>> origin = new ArrayList<>();
     private Context context;
 
     public ExpandableVacancyAdapter(Context context, ArrayList<Announcement<Vacancy>> announcements) {
         this.context = context;
         this.announcements = new ArrayList<>(announcements);
-        origin = new ArrayList<>(announcements);
     }
 
     @Override
@@ -111,26 +112,33 @@ public class ExpandableVacancyAdapter extends BaseExpandableListAdapter {
         origin = new ArrayList<>();
     }
 
-    public void filter(CharSequence filter) {
-        String query = filter.toString().toLowerCase();
+    public void filter(String filter) {
+        String query = filter.toLowerCase();
         announcements.clear();
+        announcements = CollectionUtils.deepCopy(origin);
         if (query.isEmpty()) {
-            announcements.addAll(origin);
+            return;
         }
-        for (Announcement<Vacancy> announcement : origin) {
-            if (announcement.getPlace().toLowerCase().contains(query)) {
-                announcements.add(announcement);
+        Iterator<Announcement<Vacancy>> announcementIterator = announcements.iterator();
+        while (announcementIterator.hasNext()) {
+            Announcement<Vacancy> announcement = announcementIterator.next();
+            Iterator<Vacancy> iterator = announcement.getEvents().iterator();
+
+            String placeText = announcement.getPlace().toLowerCase();
+            if (placeText.contains(query)) {
                 continue;
             }
-            Iterator<Vacancy> iterator = announcement.getEvents().iterator();
+            boolean hasQuery = false;
             while (iterator.hasNext()) {
                 Vacancy vacancy = iterator.next();
-                if ((vacancy.getPosition().toLowerCase().contains(query))
-                    || vacancy.getSalary().toLowerCase().contains(query)) {
-                    announcements.add(announcement);
-                } else {
-                    iterator.remove();
+                if (vacancy.contains(query)) {
+                    hasQuery = true;
+                    continue;
                 }
+                iterator.remove();
+            }
+            if (!hasQuery) {
+                announcementIterator.remove();
             }
         }
         notifyDataSetChanged();

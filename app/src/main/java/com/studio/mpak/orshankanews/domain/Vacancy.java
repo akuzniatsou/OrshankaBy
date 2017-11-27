@@ -1,8 +1,16 @@
 package com.studio.mpak.orshankanews.domain;
 
+import java.io.Serializable;
+
 public class Vacancy {
     String position;
     String salary;
+
+    public Vacancy(Vacancy vacancy) {
+        this.position = vacancy.getPosition();
+        this.salary = vacancy.getSalary();
+    }
+
 
     public Vacancy(String position, String salary) {
         this.position = position;
@@ -31,5 +39,9 @@ public class Vacancy {
                 "position='" + position + '\'' +
                 ", salary='" + salary + '\'' +
                 '}';
+    }
+
+    public boolean contains(String query) {
+        return position.toLowerCase().contains(query) || salary.toLowerCase().contains(query);
     }
 }
