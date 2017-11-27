@@ -84,6 +84,9 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.nav_announcement:
                         intent = new Intent(MainActivity.this, AnnouncementActivity.class);
                         break;
+                    case R.id.nav_vacancy:
+                        intent = new Intent(MainActivity.this, VacancyActivity.class);
+                        break;
                     default:
                         intent = null;
                 }

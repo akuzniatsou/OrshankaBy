@@ -9,17 +9,21 @@ import android.widget.TextView;
 
 import com.studio.mpak.orshankanews.R;
 import com.studio.mpak.orshankanews.domain.Announcement;
+import com.studio.mpak.orshankanews.domain.Vacancy;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
-public class ExpandableAnnouncementAdapter extends BaseExpandableListAdapter {
+public class ExpandableVacancyAdapter extends BaseExpandableListAdapter {
 
-    private ArrayList<Announcement<String>> announcements;
+    private ArrayList<Announcement<Vacancy>> announcements;
+    private ArrayList<Announcement<Vacancy>> origin;
     private Context context;
 
-    public ExpandableAnnouncementAdapter(Context context, ArrayList<Announcement<String>> announcements) {
+    public ExpandableVacancyAdapter(Context context, ArrayList<Announcement<Vacancy>> announcements) {
         this.context = context;
-        this.announcements = announcements;
+        this.announcements = new ArrayList<>(announcements);
+        origin = new ArrayList<>(announcements);
     }
 
     @Override
@@ -37,12 +41,14 @@ public class ExpandableAnnouncementAdapter extends BaseExpandableListAdapter {
                              View convertView, ViewGroup parent) {
         if (convertView == null) {
             LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            convertView = inflater.inflate(R.layout.announcement_item, null);
+            convertView = inflater.inflate(R.layout.vacancy_item, null);
         }
 
-        TextView textChild = convertView.findViewById(R.id.child);
-        String tvChild = announcements.get(groupPosition).getEvents().get(childPosition);
-        textChild.setText(String.format("● %s", tvChild));
+        Vacancy vacancy = announcements.get(groupPosition).getEvents().get(childPosition);
+        TextView tvPosition = convertView.findViewById(R.id.position);
+        tvPosition.setText(String.format("● %s", vacancy.getPosition()));
+        TextView tvSalary = convertView.findViewById(R.id.salary);
+        tvSalary.setText(vacancy.getSalary());
 
         return convertView;
     }
@@ -95,11 +101,38 @@ public class ExpandableAnnouncementAdapter extends BaseExpandableListAdapter {
     }
 
 
-    public void addAll(ArrayList<Announcement<String>> data) {
+    public void addAll(ArrayList<Announcement<Vacancy>> data) {
         announcements.addAll(data);
+        origin.addAll(data);
     }
 
     public void clear() {
         announcements = new ArrayList<>();
+        origin = new ArrayList<>();
+    }
+
+    public void filter(CharSequence filter) {
+        String query = filter.toString().toLowerCase();
+        announcements.clear();
+        if (query.isEmpty()) {
+            announcements.addAll(origin);
+        }
+        for (Announcement<Vacancy> announcement : origin) {
+            if (announcement.getPlace().toLowerCase().contains(query)) {
+                announcements.add(announcement);
+                continue;
+            }
+            Iterator<Vacancy> iterator = announcement.getEvents().iterator();
+            while (iterator.hasNext()) {
+                Vacancy vacancy = iterator.next();
+                if ((vacancy.getPosition().toLowerCase().contains(query))
+                    || vacancy.getSalary().toLowerCase().contains(query)) {
+                    announcements.add(announcement);
+                } else {
+                    iterator.remove();
+                }
+            }
+        }
+        notifyDataSetChanged();
     }
 }

@@ -3,9 +3,9 @@ package com.studio.mpak.orshankanews.domain;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Announcement {
+public class Announcement<T> {
     private int id;
-    private List<String> events = new ArrayList<>();
+    private List<T> events = new ArrayList<>();
     private String place;
 
     public int getId() {
@@ -16,14 +16,14 @@ public class Announcement {
         this.id = id;
     }
 
-    public List<String> getEvents() {
+    public List<T> getEvents() {
         if (null == events) {
             events = new ArrayList<>();
         }
         return events;
     }
 
-    public void setEvents(List<String> events) {
+    public void setEvents(List<T> events) {
         this.events = events;
     }
 

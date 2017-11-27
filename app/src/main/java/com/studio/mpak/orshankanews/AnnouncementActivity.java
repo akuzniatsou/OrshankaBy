@@ -15,7 +15,8 @@ import com.studio.mpak.orshankanews.loaders.AnnouncementLoader;
 
 import java.util.ArrayList;
 
-public class AnnouncementActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<ArrayList<Announcement>> {
+public class AnnouncementActivity extends AppCompatActivity
+        implements LoaderManager.LoaderCallbacks<ArrayList<Announcement<String>>> {
 
     private ExpandableAnnouncementAdapter mAdapter;
     private ProgressBar bar;
@@ -29,19 +30,20 @@ public class AnnouncementActivity extends AppCompatActivity implements LoaderMan
         ExpandableListView exListView = findViewById(R.id.list_expandable);
         bar = findViewById(R.id.loading);
         bar.setVisibility(View.VISIBLE);
-        mAdapter = new ExpandableAnnouncementAdapter(this, new ArrayList<Announcement>());
+        mAdapter = new ExpandableAnnouncementAdapter(this, new ArrayList<Announcement<String>>());
         exListView.setAdapter(mAdapter);
         getSupportLoaderManager().initLoader(0, null, this);
 
     }
 
     @Override
-    public Loader<ArrayList<Announcement>> onCreateLoader(int id, Bundle args) {
+    public Loader<ArrayList<Announcement<String>>> onCreateLoader(int id, Bundle args) {
         return new AnnouncementLoader(this);
     }
 
     @Override
-    public void onLoadFinished(Loader<ArrayList<Announcement>> loader, ArrayList<Announcement> data) {
+    public void onLoadFinished(Loader<ArrayList<Announcement<String>>> loader,
+                               ArrayList<Announcement<String>> data) {
         bar.setVisibility(View.GONE);
         if (data != null && !data.isEmpty()) {
             mAdapter.clear();
@@ -52,7 +54,7 @@ public class AnnouncementActivity extends AppCompatActivity implements LoaderMan
     }
 
     @Override
-    public void onLoaderReset(Loader<ArrayList<Announcement>> loader) {
+    public void onLoaderReset(Loader<ArrayList<Announcement<String>>> loader) {
         mAdapter.clear();
     }
 }
