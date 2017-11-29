@@ -7,10 +7,7 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Editable;
-import android.text.TextWatcher;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.ExpandableListView;
 import android.widget.ProgressBar;
 import android.widget.SearchView;
@@ -29,7 +26,7 @@ public class VacancyActivity extends AppCompatActivity
     private ExpandableVacancyAdapter mAdapter;
     private ProgressBar bar;
     private SearchView search;
-    ExpandableListView exListView;
+    private ExpandableListView exListView;
 
 
     @Override
@@ -51,8 +48,6 @@ public class VacancyActivity extends AppCompatActivity
         search.setIconifiedByDefault(false);
         search.setOnQueryTextListener(this);
         search.setOnCloseListener(this);
-        collapseAll();
-
     }
 
     @Override
@@ -80,7 +75,6 @@ public class VacancyActivity extends AppCompatActivity
         return false;
     }
 
-
     private void expandAll() {
         int count = mAdapter.getGroupCount();
         for (int i = 0; i < count; i++){
@@ -94,7 +88,6 @@ public class VacancyActivity extends AppCompatActivity
             exListView.collapseGroup(i);
         }
     }
-
 
     @Override
     public Loader<ArrayList<Announcement<Vacancy>>> onCreateLoader(int id, Bundle args) {

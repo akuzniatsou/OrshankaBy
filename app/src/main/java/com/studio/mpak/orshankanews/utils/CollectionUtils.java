@@ -25,4 +25,15 @@ public class CollectionUtils {
         }
         return clonedList;
     }
+
+    public static ArrayList<Announcement<String>> deepCopySimple(ArrayList<Announcement<String>> source) {
+        ArrayList<Announcement<String>> clonedList = new ArrayList<>(source.size());
+        for (Announcement<String> announcement : source) {
+            Announcement<String> cloned = new Announcement<>(announcement);
+            cloned.setEvents(new ArrayList<>(announcement.getEvents()));
+            clonedList.add(cloned);
+        }
+        return clonedList;
+    }
+
 }

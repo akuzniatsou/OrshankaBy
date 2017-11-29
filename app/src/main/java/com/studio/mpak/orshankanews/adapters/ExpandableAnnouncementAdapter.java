@@ -9,12 +9,16 @@ import android.widget.TextView;
 
 import com.studio.mpak.orshankanews.R;
 import com.studio.mpak.orshankanews.domain.Announcement;
+import com.studio.mpak.orshankanews.domain.Vacancy;
+import com.studio.mpak.orshankanews.utils.CollectionUtils;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ExpandableAnnouncementAdapter extends BaseExpandableListAdapter {
 
     private ArrayList<Announcement<String>> announcements;
+    private ArrayList<Announcement<String>> origin = new ArrayList<>();
     private Context context;
 
     public ExpandableAnnouncementAdapter(Context context, ArrayList<Announcement<String>> announcements) {
@@ -97,9 +101,43 @@ public class ExpandableAnnouncementAdapter extends BaseExpandableListAdapter {
 
     public void addAll(ArrayList<Announcement<String>> data) {
         announcements.addAll(data);
+        origin.addAll(data);
     }
 
     public void clear() {
         announcements = new ArrayList<>();
+        origin = new ArrayList<>();
+    }
+
+    public void filter(String filter) {
+        String query = filter.toLowerCase();
+        announcements.clear();
+        announcements = CollectionUtils.deepCopySimple(origin);
+        if (query.isEmpty()) {
+            return;
+        }
+        Iterator<Announcement<String>> announcementIterator = announcements.iterator();
+        while (announcementIterator.hasNext()) {
+            Announcement<String> announcement = announcementIterator.next();
+            Iterator<String> iterator = announcement.getEvents().iterator();
+
+            String placeText = announcement.getPlace().toLowerCase();
+            if (placeText.contains(query)) {
+                continue;
+            }
+            boolean hasQuery = false;
+            while (iterator.hasNext()) {
+                String event = iterator.next();
+                if (event.contains(query)) {
+                    hasQuery = true;
+                    continue;
+                }
+                iterator.remove();
+            }
+            if (!hasQuery) {
+                announcementIterator.remove();
+            }
+        }
+        notifyDataSetChanged();
     }
 }
