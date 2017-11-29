@@ -34,16 +34,16 @@ public class CategoryPagerAdapter extends FragmentPagerAdapter {
         tabs.put(context.getString(R.string.settings_content_actual), "74");
         tabs.put(context.getString(R.string.settings_content_society), "3639");
         tabs.put(context.getString(R.string.settings_content_culture), "154");
-        tabs.put(context.getString(R.string.settings_content_official), "1067");
         tabs.put(context.getString(R.string.settings_content_event), "2278");
         tabs.put(context.getString(R.string.settings_content_economic), "1906");
         tabs.put(context.getString(R.string.settings_content_heals), "48");
         tabs.put(context.getString(R.string.settings_content_sport), "24");
-        tabs.put(context.getString(R.string.settings_content_citizen), "3651");
+//        tabs.put(context.getString(R.string.settings_content_citizen), "3651");
         tabs.put(context.getString(R.string.settings_content_photo), "3623");
         tabs.put(context.getString(R.string.settings_content_partnership), "3668");
-        tabs.put(context.getString(R.string.settings_content_group), "3664");
-        tabs.put(context.getString(R.string.settings_content_anniversary), "3667");
+//        tabs.put(context.getString(R.string.settings_content_group), "3664");
+//        tabs.put(context.getString(R.string.settings_content_anniversary), "3667");
+        tabs.put(context.getString(R.string.settings_content_official), "1067");
     }
 
     private void initTitles() {
