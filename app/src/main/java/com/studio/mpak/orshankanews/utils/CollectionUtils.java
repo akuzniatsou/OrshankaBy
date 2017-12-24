@@ -6,7 +6,7 @@ import com.studio.mpak.orshankanews.domain.Vacancy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CollectionUtils {
+public final class CollectionUtils {
 
     public static ArrayList<Announcement<Vacancy>> deepCopy(ArrayList<Announcement<Vacancy>> source) {
         ArrayList<Announcement<Vacancy>> clonedList = new ArrayList<>(source.size());

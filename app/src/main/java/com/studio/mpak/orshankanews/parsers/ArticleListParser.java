@@ -3,6 +3,7 @@ package com.studio.mpak.orshankanews.parsers;
 import android.support.annotation.Nullable;
 import android.util.Log;
 import com.studio.mpak.orshankanews.domain.Article;
+import com.studio.mpak.orshankanews.validators.ShortArticleValidator;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -14,6 +15,7 @@ import java.util.LinkedHashMap;
 public class ArticleListParser implements DocumentParser<ArrayList<Article>> {
 
     private static final String LOG_TAG = ArticleListParser.class.getSimpleName();
+    private static final ShortArticleValidator VALIDATOR = new ShortArticleValidator();
 
     @Override
     public ArrayList<Article> parse(Document document) {
@@ -22,18 +24,16 @@ public class ArticleListParser implements DocumentParser<ArrayList<Article>> {
         }
         document.select("script,.hidden,style").remove();
         HashMap<Integer, Article> articleHashMap = new LinkedHashMap<>();
-        ArrayList<Article> articleList = new ArrayList<>();
 
         Elements items = document.select(".post");
         for (Element item : items) {
             Article article = getArticle(item);
             if (article == null) continue;
-            articleList.add(article);
-            articleHashMap.put(article.getId(), article);
+            if (VALIDATOR.isValid(article)) {
+                articleHashMap.put(article.getId(), article);
+            }
         }
-        articleList = new ArrayList<>(articleHashMap.values());
-
-        return articleList;
+        return new ArrayList<>(articleHashMap.values());
     }
 
     @Nullable
