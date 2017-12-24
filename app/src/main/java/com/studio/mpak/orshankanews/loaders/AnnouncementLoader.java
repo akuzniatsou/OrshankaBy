@@ -5,7 +5,7 @@ import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 
 import com.studio.mpak.orshankanews.domain.Announcement;
-import com.studio.mpak.orshankanews.utils.HtmlParser;
+import com.studio.mpak.orshankanews.parsers.DocumentParser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -17,10 +17,12 @@ public class AnnouncementLoader extends AsyncTaskLoader<ArrayList<Announcement<S
 
     private static final String LOG_TAG = AnnouncementLoader.class.getSimpleName();
     private static final String URL = "http://www.orshanka.by/?page_id=22085";
+    private final DocumentParser<ArrayList<Announcement<String>>> parser;
 
 
-    public AnnouncementLoader(Context context) {
+    public AnnouncementLoader(Context context, DocumentParser<ArrayList<Announcement<String>>> parser) {
         super(context);
+        this.parser = parser;
     }
 
     @Override
@@ -31,7 +33,7 @@ public class AnnouncementLoader extends AsyncTaskLoader<ArrayList<Announcement<S
         } catch (IOException e) {
             Log.e(LOG_TAG, "Error with creating URL", e);
         }
-        return HtmlParser.extractAnnouncement(document);
+        return parser.parse(document);
     }
 
     @Override

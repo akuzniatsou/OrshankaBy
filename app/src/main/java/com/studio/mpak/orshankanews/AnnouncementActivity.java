@@ -15,6 +15,7 @@ import android.widget.SearchView;
 import com.studio.mpak.orshankanews.adapters.ExpandableAnnouncementAdapter;
 import com.studio.mpak.orshankanews.domain.Announcement;
 import com.studio.mpak.orshankanews.loaders.AnnouncementLoader;
+import com.studio.mpak.orshankanews.parsers.AnnouncementParser;
 
 import java.util.ArrayList;
 
@@ -93,7 +94,7 @@ public class AnnouncementActivity extends AppCompatActivity
 
     @Override
     public Loader<ArrayList<Announcement<String>>> onCreateLoader(int id, Bundle args) {
-        return new AnnouncementLoader(this);
+        return new AnnouncementLoader(this, new AnnouncementParser());
     }
 
     @Override

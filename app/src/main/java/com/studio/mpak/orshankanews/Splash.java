@@ -14,6 +14,7 @@ import android.widget.TextView;
 
 import com.studio.mpak.orshankanews.domain.Article;
 import com.studio.mpak.orshankanews.loaders.ContentLoader;
+import com.studio.mpak.orshankanews.parsers.ArticleListParser;
 
 import java.util.ArrayList;
 
@@ -45,7 +46,7 @@ public class Splash extends AppCompatActivity implements LoaderManager.LoaderCal
 
     @Override
     public Loader<ArrayList<Article>> onCreateLoader(int id, Bundle args) {
-        return new ContentLoader(uri, Splash.this);
+        return new ContentLoader(uri, Splash.this, new ArticleListParser());
     }
 
     @Override

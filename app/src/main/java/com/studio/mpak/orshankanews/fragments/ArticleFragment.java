@@ -23,6 +23,7 @@ import com.studio.mpak.orshankanews.adapters.EndlessScrollListener;
 import com.studio.mpak.orshankanews.data.ArticleContract;
 import com.studio.mpak.orshankanews.domain.Article;
 import com.studio.mpak.orshankanews.loaders.ContentLoader;
+import com.studio.mpak.orshankanews.parsers.ArticleListParser;
 
 import java.util.ArrayList;
 
@@ -88,7 +89,7 @@ public class ArticleFragment extends Fragment implements LoaderManager.LoaderCal
 
     @Override
     public Loader<ArrayList<Article>> onCreateLoader(int id, Bundle args) {
-        return new ContentLoader(url, getActivity().getApplicationContext());
+        return new ContentLoader(url, getActivity().getApplicationContext(), new ArticleListParser());
     }
 
     @Override

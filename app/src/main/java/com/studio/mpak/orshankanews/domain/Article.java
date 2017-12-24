@@ -20,6 +20,10 @@ public class Article implements Parcelable {
     private String content;
     private String description;
 
+    private Article prev = null;
+    private Article next = null;
+    private List<Article> related = new ArrayList<>();
+
     public Article() {
     }
 
@@ -36,6 +40,9 @@ public class Article implements Parcelable {
         comments = parcel.readString();
         content = parcel.readString();
         description = parcel.readString();
+        prev = parcel.readParcelable(Article.class.getClassLoader());
+        next = parcel.readParcelable(Article.class.getClassLoader());
+        parcel.readList(related, Article.class.getClassLoader());
     }
 
     public String getViews() {
@@ -129,13 +136,37 @@ public class Article implements Parcelable {
         this.description = description;
     }
 
+    public List<Article> getRelated() {
+        return related;
+    }
+
+    public void setRelated(List<Article> related) {
+        this.related = related;
+    }
+
+    public Article getPrev() {
+        return prev;
+    }
+
+    public void setPrev(Article prev) {
+        this.prev = prev;
+    }
+
+    public Article getNext() {
+        return next;
+    }
+
+    public void setNext(Article next) {
+        this.next = next;
+    }
+
     @Override
     public int describeContents() {
         return 0;
     }
 
     @Override
-    public void writeToParcel(Parcel parcel, int i) {
+    public void writeToParcel(Parcel parcel, int flags) {
         parcel.writeInt(id);
         parcel.writeStringList(categories);
         parcel.writeString(title);
@@ -147,6 +178,9 @@ public class Article implements Parcelable {
         parcel.writeString(comments);
         parcel.writeString(content);
         parcel.writeString(description);
+        parcel.writeParcelable(next, flags);
+        parcel.writeParcelable(prev, flags);
+        parcel.writeTypedList(related);
     }
 
     public static final Parcelable.Creator<Article> CREATOR = new

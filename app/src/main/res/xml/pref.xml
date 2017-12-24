@@ -19,11 +19,6 @@
 
     <CheckBoxPreference
         android:defaultValue="true"
-        android:key="@string/settings_content_official"
-        android:title="@string/settings_content_official" />
-
-    <CheckBoxPreference
-        android:defaultValue="true"
         android:key="@string/settings_content_event"
         android:title="@string/settings_content_event" />
 
@@ -44,11 +39,6 @@
 
     <CheckBoxPreference
         android:defaultValue="true"
-        android:key="@string/settings_content_citizen"
-        android:title="@string/settings_content_citizen" />
-
-    <CheckBoxPreference
-        android:defaultValue="true"
         android:key="@string/settings_content_photo"
         android:title="@string/settings_content_photo" />
 
@@ -58,13 +48,8 @@
         android:title="@string/settings_content_partnership" />
 
     <CheckBoxPreference
-        android:defaultValue="false"
-        android:key="@string/settings_content_group"
-        android:title="@string/settings_content_group" />
-
-    <CheckBoxPreference
-        android:defaultValue="false"
-        android:key="@string/settings_content_anniversary"
-        android:title="@string/settings_content_anniversary" />
+        android:defaultValue="true"
+        android:key="@string/settings_content_official"
+        android:title="@string/settings_content_official" />
 
 </PreferenceScreen>

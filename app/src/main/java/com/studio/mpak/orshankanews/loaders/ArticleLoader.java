@@ -5,7 +5,7 @@ import android.content.Context;
 import android.util.Log;
 
 import com.studio.mpak.orshankanews.domain.Article;
-import com.studio.mpak.orshankanews.utils.HtmlParser;
+import com.studio.mpak.orshankanews.parsers.DocumentParser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -15,11 +15,13 @@ import java.io.IOException;
 public class ArticleLoader extends AsyncTaskLoader<Article> {
 
     private static final String LOG_TAG = ArticleLoader.class.getSimpleName();
+    private final DocumentParser<Article> parser;
     private String url;
 
-    public ArticleLoader(String url, Context context) {
+    public ArticleLoader(String url, Context context, DocumentParser<Article> parser) {
         super(context);
         this.url = url;
+        this.parser = parser;
     }
 
     @Override
@@ -30,8 +32,7 @@ public class ArticleLoader extends AsyncTaskLoader<Article> {
         } catch (IOException e) {
             Log.e(LOG_TAG, "Error with creating URL", e);
         }
-//        return HtmlParser.fetchArticleFull(document);
-        return HtmlParser.fetchArticle(document);
+        return parser.parse(document);
     }
 
     @Override

@@ -6,7 +6,7 @@ import android.util.Log;
 
 import com.studio.mpak.orshankanews.domain.Announcement;
 import com.studio.mpak.orshankanews.domain.Vacancy;
-import com.studio.mpak.orshankanews.utils.HtmlParser;
+import com.studio.mpak.orshankanews.parsers.DocumentParser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -18,10 +18,12 @@ public class VacancyLoader extends AsyncTaskLoader<ArrayList<Announcement<Vacanc
 
     private static final String LOG_TAG = VacancyLoader.class.getSimpleName();
     private static final String URL = "http://www.orshanka.by/?page_id=5342";
+    private final DocumentParser<ArrayList<Announcement<Vacancy>>> parser;
 
 
-    public VacancyLoader(Context context) {
+    public VacancyLoader(Context context, DocumentParser<ArrayList<Announcement<Vacancy>>> parser) {
         super(context);
+        this.parser = parser;
     }
 
     @Override
@@ -32,7 +34,7 @@ public class VacancyLoader extends AsyncTaskLoader<ArrayList<Announcement<Vacanc
         } catch (IOException e) {
             Log.e(LOG_TAG, "Error with creating URL", e);
         }
-        return HtmlParser.extractVacancy(document);
+        return parser.parse(document);
     }
 
     @Override

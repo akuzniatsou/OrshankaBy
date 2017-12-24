@@ -1,13 +1,11 @@
 package com.studio.mpak.orshankanews.loaders;
 
-import android.content.ContentValues;
 import android.content.Context;
 import android.support.v4.content.AsyncTaskLoader;
 import android.util.Log;
 
-import com.studio.mpak.orshankanews.data.ArticleContract.ArticleEntry;
 import com.studio.mpak.orshankanews.domain.Article;
-import com.studio.mpak.orshankanews.utils.HtmlParser;
+import com.studio.mpak.orshankanews.parsers.DocumentParser;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -18,11 +16,13 @@ import java.util.ArrayList;
 public class ContentLoader extends AsyncTaskLoader<ArrayList<Article>> {
 
     private static final String LOG_TAG = ContentLoader.class.getSimpleName();
+    private final DocumentParser<ArrayList<Article>> parser;
     private String url;
 
-    public ContentLoader(String url, Context context) {
+    public ContentLoader(String url, Context context, DocumentParser<ArrayList<Article>> parser) {
         super(context);
         this.url = url;
+        this.parser = parser;
     }
 
     @Override
@@ -33,7 +33,7 @@ public class ContentLoader extends AsyncTaskLoader<ArrayList<Article>> {
         } catch (IOException e) {
             Log.e(LOG_TAG, "Error with creating URL", e);
         }
-        ArrayList<Article> articles = HtmlParser.extractArticles(document);
+        ArrayList<Article> articles = parser.parse(document);
 //        for (Article article : articles) {
 //            ContentValues values = new ContentValues();
 //            values.put(ArticleEntry._ID, article.getId());

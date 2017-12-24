@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:minHeight="40dp"
         android:gravity="center_vertical"
+        android:layout_marginLeft="30dp"
         android:textColor="@color/subHeader"
         android:drawablePadding="10dp"
         android:text="@string/test_text"

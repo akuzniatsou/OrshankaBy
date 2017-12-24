@@ -16,6 +16,7 @@ import com.studio.mpak.orshankanews.adapters.ExpandableVacancyAdapter;
 import com.studio.mpak.orshankanews.domain.Announcement;
 import com.studio.mpak.orshankanews.domain.Vacancy;
 import com.studio.mpak.orshankanews.loaders.VacancyLoader;
+import com.studio.mpak.orshankanews.parsers.VacancyParser;
 
 import java.util.ArrayList;
 
@@ -91,7 +92,7 @@ public class VacancyActivity extends AppCompatActivity
 
     @Override
     public Loader<ArrayList<Announcement<Vacancy>>> onCreateLoader(int id, Bundle args) {
-        return new VacancyLoader(this);
+        return new VacancyLoader(this, new VacancyParser());
     }
 
     @Override
