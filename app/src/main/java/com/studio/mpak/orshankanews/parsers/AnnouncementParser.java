@@ -1,6 +1,7 @@
 package com.studio.mpak.orshankanews.parsers;
 
 import com.studio.mpak.orshankanews.domain.Announcement;
+import org.jsoup.helper.StringUtil;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
@@ -11,6 +12,32 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class AnnouncementParser implements DocumentParser<ArrayList<Announcement<String>>> {
+
+    private static final List<String> VENUES = new ArrayList<String>() {{
+        add("Площадь Коллегиума иезуитов");
+//        add("Музейный комплекс истории и культуры Оршанщины");
+        add("Музей истории и культуры города Орши");
+        add("Оршанский этнографический музей «Мельница»");
+        add("Оршанская городская художественная галерея В.А.Громыко");
+        add("Оршанский музей В.С.Короткевича");
+        add("Оршанский музей деревянной скульптуры резчика С.С. Шаврова");
+        add("Художественная галерея «Каляровы шлях»");
+        add("Оршанская централизованная библиотечная система");
+        add("Оршанский городской Центр культуры «Победа»");
+        add("Городской Дворец культуры «Орша»");
+        add("Дворец культуры г.Барани Оршанского района");
+        add("Оршанский районный Дом культуры");
+        add("Дом культуры г.п. Болбасово");
+        add("Городской детский парк «Сказочная страна»");
+        add("Административное здание");
+        add("Оршанская детская школа искусств № 1");
+        add("Оршанская детская школа искусств № 2");
+        add("Оршанская детская школа искусств № 3");
+        add("Ореховская детская школа искусств");
+        add("Дом культуры железнодорожников");
+        add("3D кинотеатр");
+    }};
+    private static final String SUBTITLE = "Музейный комплекс истории и культуры Оршанщины";
 
     @Override
     public ArrayList<Announcement<String>> parse(Document document) {
@@ -29,11 +56,13 @@ public class AnnouncementParser implements DocumentParser<ArrayList<Announcement
         }
         content.select("h4").first().remove();
         content.select("h4").tagName("p");
-        content.select("p").first().remove();
         Elements select = content.select("p");
         ArrayList<Announcement<String>> announcements = new ArrayList<>();
         Announcement<String> announcement = null;
         for (Element element : select) {
+            if (element.text().contains(SUBTITLE)) {
+                continue;
+            }
             List<Node> nodes = element.childNodes();
             for (Node node : nodes) {
                 if (node.nodeName().equals("strong")) {
@@ -58,4 +87,13 @@ public class AnnouncementParser implements DocumentParser<ArrayList<Announcement
         }
         return announcements;
     }
+
+    private String clearText(String event) {
+        String text = event.trim();
+        text = text.replaceFirst("^-+", "");
+        text = text.replaceFirst("^—+", "");
+        return text.trim();
+    }
+
+
 }
