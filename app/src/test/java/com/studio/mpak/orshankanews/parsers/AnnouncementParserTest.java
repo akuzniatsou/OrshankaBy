@@ -1,7 +1,5 @@
 package com.studio.mpak.orshankanews.parsers;
 
-import static org.junit.Assert.*;
-
 import com.studio.mpak.orshankanews.domain.Announcement;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -10,10 +8,7 @@ import org.junit.Test;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.io.InputStream;
-import java.net.URISyntaxException;
-import java.nio.charset.Charset;
 import java.util.ArrayList;
 
 /**
@@ -35,7 +30,10 @@ public class AnnouncementParserTest {
 
     @Test
     public void testParser() throws Exception {
-        File file = new File("C:\\workspace\\OrshankaBy\\app\\src\\test\\resources", "announsement_source.html");
+        ClassLoader classLoader = getClass().getClassLoader();
+        File file = new File(classLoader.getResource("announsement_source_3.html").getFile());
+
+//        File file = new File("C:\\workspace\\OrshankaBy\\app\\src\\test\\resources", "announsement_source_3.html");
         InputStream inputStream = new FileInputStream(file);
         System.out.println(file);
 

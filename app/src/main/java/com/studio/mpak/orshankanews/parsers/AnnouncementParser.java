@@ -1,7 +1,6 @@
 package com.studio.mpak.orshankanews.parsers;
 
 import com.studio.mpak.orshankanews.domain.Announcement;
-import org.jsoup.helper.StringUtil;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
@@ -38,6 +37,7 @@ public class AnnouncementParser implements DocumentParser<ArrayList<Announcement
         add("3D кинотеатр");
     }};
     private static final String SUBTITLE = "Музейный комплекс истории и культуры Оршанщины";
+    private static final String NBSP_SYMBOL = "\\u00a0";
 
     @Override
     public ArrayList<Announcement<String>> parse(Document document) {
@@ -74,7 +74,7 @@ public class AnnouncementParser implements DocumentParser<ArrayList<Announcement
                 } else {
                     if (node instanceof TextNode) {
                         String event = ((TextNode) node).text();
-                        event = event.trim();
+                        event = clearText(event);
                         if (!event.equals("")) {
                             announcement.getEvents().add(event);
                         }
@@ -92,6 +92,7 @@ public class AnnouncementParser implements DocumentParser<ArrayList<Announcement
         String text = event.trim();
         text = text.replaceFirst("^-+", "");
         text = text.replaceFirst("^—+", "");
+        text = text.replaceFirst(NBSP_SYMBOL, "");
         return text.trim();
     }
 
